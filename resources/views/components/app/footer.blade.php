@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-6">2023 -
                 <script>
                     document.write(new Date().getFullYear())
 
@@ -9,7 +9,7 @@
             </div>
             <div class="col-sm-6">
                 <div class="text-sm-end d-none d-sm-block">
-                    <i class="mdi mdi-heart text-danger"></i> <a href="javascript:void(0);" target="_blank" class="text-reset">Blog</a>
+                    <i class="mdi mdi-heart text-danger"></i> <a href="javascript:void(0);" target="_blank" class="text-reset">Blog Panel</a>
                 </div>
             </div>
         </div>
