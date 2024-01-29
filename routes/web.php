@@ -24,72 +24,117 @@ Route::get('/', function () {
     return view('welcome');
 })->name('index');
 
-Route::get('/privacy-policy', function () {
-    return view('pages.frontend.privacy-policy');
-})->name('privacy.policy');
+Route::get('/about', function () {
+    return view('pages.frontend.about');
+})->name('about');
 
-Route::get('/terms-and-conditions', function () {
-    return view('pages.frontend.terms-and-conditions');
-})->name('terms.and.conditions');
-
-Route::get('/cancellation-and-refund', function () {
-    return view('pages.frontend.cancellation-and-refund');
-})->name('cancellation.and.refund');
-
-Route::get('/shipping-and-delivery', function () {
-    return view('pages.frontend.shipping-and-delivery');
-})->name('shipping.and.delivery');
-
-Route::get('/contact-us', function () {
-    return view('pages.frontend.contact-us');
-})->name('contact.us');
-Route::get('/about-us', function () {
-    return view('pages.frontend.about-us');
-})->name('about.us');
-
-Route::get('/services', function () {
+Route::get('/service', function () {
     return view('pages.frontend.service');
 })->name('service');
 
-Route::get('/web-development', function () {
-    return view('pages.frontend.web-development');
-})->name('web.development');
+Route::get('/blog-details', function () {
+    return view('pages.frontend.blog-details');
+})->name('blog-details');
 
-Route::get('/mobile-app-development', function () {
-    return view('pages.frontend.mobile-app-development');
-})->name('mobile.app.development');
+Route::get('/blog', function () {
+    return view('pages.frontend.blog');
+})->name('blog');
 
-Route::get('/ecommerce-soluation', function () {
-    return view('pages.frontend.ecommerce-soluation');
-})->name('ecommerce.soluation');
-
-Route::get('/cms-crm-erp-soluation', function () {
-    return view('pages.frontend.cms-crm-erp-soluation');
-})->name('cms.crm.erp.soluation');
-
-Route::get('/custom-software', function () {
-    return view('pages.frontend.custom-software');
-})->name('custom.software');
-
-Route::get('/graphics-desiging', function () {
-    return view('pages.frontend.graphics-desiging');
-})->name('graphics.desiging');
-
-Route::get('/digital-marketing', function () {
-    return view('pages.frontend.digital-marketing');
-})->name('digital.marketing');
-
-Route::get('/social-media', function () {
-    return view('pages.frontend.social-media');
-})->name('social.media');
-
-Route::get('/portfolio', function () {
-    return view('pages.frontend.portfolio');
-})->name('portfolio');
+Route::get('/product', function () {
+    return view('pages.frontend.product');
+})->name('product');
 
 Route::get('/contact', function () {
     return view('pages.frontend.contact');
 })->name('contact');
+
+Route::get('/water-purifier', function () {
+    return view('pages.frontend.water-purifier');
+})->name('water-purifier');
+
+Route::get('/water-purifiers', function () {
+    return view('pages.frontend.water-purifiers');
+})->name('water-purifiers');
+
+Route::get('/water-filter-for-home', function () {
+    return view('pages.frontend.water-filter-for-home');
+})->name('water-filter-for-home');
+
+Route::get('/water-purifier-for-home', function () {
+    return view('pages.frontend.water-purifier-for-home');
+})->name('water-purifier-for-home');
+
+Route::get('/ro-installation-near-me', function () {
+    return view('pages.frontend.ro-installation-near-me');
+})->name('ro-installation-near-me');
+
+
+// Route::get('/privacy-policy', function () {
+//     return view('pages.frontend.privacy-policy');
+// })->name('privacy.policy');
+
+// Route::get('/terms-and-conditions', function () {
+//     return view('pages.frontend.terms-and-conditions');
+// })->name('terms.and.conditions');
+
+// Route::get('/cancellation-and-refund', function () {
+//     return view('pages.frontend.cancellation-and-refund');
+// })->name('cancellation.and.refund');
+
+// Route::get('/shipping-and-delivery', function () {
+//     return view('pages.frontend.shipping-and-delivery');
+// })->name('shipping.and.delivery');
+
+// Route::get('/contact-us', function () {
+//     return view('pages.frontend.contact-us');
+// })->name('contact.us');
+// Route::get('/about-us', function () {
+//     return view('pages.frontend.about-us');
+// })->name('about.us');
+
+// Route::get('/services', function () {
+//     return view('pages.frontend.service');
+// })->name('service');
+
+// Route::get('/web-development', function () {
+//     return view('pages.frontend.web-development');
+// })->name('web.development');
+
+// Route::get('/mobile-app-development', function () {
+//     return view('pages.frontend.mobile-app-development');
+// })->name('mobile.app.development');
+
+// Route::get('/ecommerce-soluation', function () {
+//     return view('pages.frontend.ecommerce-soluation');
+// })->name('ecommerce.soluation');
+
+// Route::get('/cms-crm-erp-soluation', function () {
+//     return view('pages.frontend.cms-crm-erp-soluation');
+// })->name('cms.crm.erp.soluation');
+
+// Route::get('/custom-software', function () {
+//     return view('pages.frontend.custom-software');
+// })->name('custom.software');
+
+// Route::get('/graphics-desiging', function () {
+//     return view('pages.frontend.graphics-desiging');
+// })->name('graphics.desiging');
+
+// Route::get('/digital-marketing', function () {
+//     return view('pages.frontend.digital-marketing');
+// })->name('digital.marketing');
+
+// Route::get('/social-media', function () {
+//     return view('pages.frontend.social-media');
+// })->name('social.media');
+
+// Route::get('/portfolio', function () {
+//     return view('pages.frontend.portfolio');
+// })->name('portfolio');
+
+// Route::get('/contact', function () {
+//     return view('pages.frontend.contact');
+// })->name('contact');
 
 Route::get('/blog', [FrontendController::class, 'blogindex'])->name('blog');
 
