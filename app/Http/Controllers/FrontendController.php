@@ -14,17 +14,7 @@ class FrontendController extends Controller
     {
         $masterblogdata = BlogMaster::where('soft_delete', '!=', 1)->get();
         $data = Blog::where('soft_delete', '!=', 1)->where('active_status', '!=', 1)->orderBy('id', 'desc')->get();
-        $latestblog = Blog::where('soft_delete', '!=', 1)->where('pined', '!=', 0)->orderBy('id', 'desc')->take(10)->get();
-
-        return view('pages.frontend.blog', compact('data', 'masterblogdata', 'latestblog'));
-    }
-
-
-    public function blogfilter($id, $master_name)
-    {
-        $masterblogdata = BlogMaster::where('soft_delete', '!=', 1)->get();
-        $data = Blog::where('master_blog_id', '=', $id)->where('soft_delete', '!=', 1)->where('active_status', '!=', 1)->orderBy('id', 'desc')->get();
-        $latestblog = Blog::where('soft_delete', '!=', 1)->where('pined', '!=', 0)->orderBy('id', 'desc')->take(10)->get();
+        $latestblog = Blog::where('soft_delete', '!=', 1)->where('pined', '!=', 0)->orderBy('id', 'desc')->take(1)->get();
 
         return view('pages.frontend.blog', compact('data', 'masterblogdata', 'latestblog'));
     }
@@ -35,20 +25,10 @@ class FrontendController extends Controller
         $masterblogdata = BlogMaster::where('soft_delete', '!=', 1)->get();
         $data = Blog::where('random_id', '=', $random_id)->firstOrFail();
         $comment = Comment::where('soft_delete', '!=', 1)->where('active_status', '!=', 1)->where('blog_id', '=', $data->id)->orderBy('id', 'desc')->get();
-        $latestblog = Blog::where('soft_delete', '!=', 1)->where('active_status', '!=', 1)->orderBy('id', 'desc')->take(4)->get();
+        $latestblog = Blog::where('soft_delete', '!=', 1)->where('active_status', '!=', 1)->orderBy('id', 'desc')->take(1)->get();
         $previousblog = Blog::where('soft_delete', '!=', 1)->where('active_status', '!=', 1)->inRandomOrder()->first();
         $nextblog = Blog::where('soft_delete', '!=', 1)->where('active_status', '!=', 1)->inRandomOrder()->first();
 
         return view('pages.frontend.read-blog', compact('today', 'latestblog', 'data', 'masterblogdata', 'previousblog', 'nextblog', 'comment'));
-    }
-
-    public function searchblog(Request $request)
-    {
-        $term  = $request->get('term');
-        $masterblogdata = BlogMaster::where('soft_delete', '!=', 1)->get();
-        $data = Blog::where('title','like','%'.$term.'%')->where('soft_delete', '!=', 1)->where('active_status', '!=', 1)->orderBy('id', 'desc')->get();
-        $latestblog = Blog::where('soft_delete', '!=', 1)->where('pined', '!=', 0)->orderBy('id', 'desc')->take(10)->get();
-
-        return view('pages.frontend.blog', compact('data', 'masterblogdata', 'latestblog', 'term'));
     }
 }
