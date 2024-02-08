@@ -41,9 +41,6 @@
                 'searchreplace', 'table', 'template', 'tinymcespellchecker', 'visualblocks', 'wordcount'
             ],
             toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | addcomment showcomments | spellcheckdialog a11ycheck typography | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
-            tinycomments_mode: 'embedded',
-            spellchecker_dialog: true,
-            tinydrive_token_provider: 'jwt.php',
             tinycomments_author: 'Zwork Technology - Developers',
         });
     </script>
