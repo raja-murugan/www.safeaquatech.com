@@ -34,5 +34,4 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
 
 <!-- Place the first <script> tag in your HTML's <head> -->
-<script src="https://cdn.tiny.cloud/1/eraf3oo5x4229s7g70swbu0mu8a4ildcf14v0hsy731rcqjn/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
-                                      
+<script src="https://cdn.tiny.cloud/1/gduif9elkdt5mcup5zffjzrc8qycnqswxxs4krqx3fjq1nfz/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
