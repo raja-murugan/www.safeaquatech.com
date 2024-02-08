@@ -18,14 +18,6 @@
     <meta property="og:description" content="We provide Website designing & development, digital marketing & SEO, Graphics designing and other services for your business.">
     <meta property="og:image" content="https://zworktechnology.com/assets/frontend/image/banner/banner2.jpg">
 
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-MLFN2R5S');</script>
-    <!-- End Google Tag Manager -->
-
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ asset('assets/frontend/image/logo/fav.png') }}">
 
