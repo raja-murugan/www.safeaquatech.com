@@ -2,11 +2,22 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Safe Aqua Tech | Water Purifier, Commercial Water Plant, Water Softener Dealers, Suppliers in Trichy | Water
-        purification company in Tiruchirappalli, Tamil Nadu</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="author" content="Sthree Engineers">
+    <meta name="description" content="{{ $data->short_content }}">
+    <meta name="keywords" content="{{ $data->meta_keywords }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.safeaquatech.com/{{ $data->slug_url }}/{{ $data->random_id }}">
+    <meta property="og:title" content="{{ $data->title }}">
+    <meta property="og:description" content="{{ $data->short_content }}">
+    <meta property="og:image" content="{{ asset('assets/backend/blog/blog_image/' . $data->blog_image) }}">
+
+    <!-- Page Title -->
+    <title>{{ $data->title }}</title>
+
     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.png') }}" />
 
     <!-- Font Awesome -->
@@ -26,9 +37,37 @@
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/responsive.css') }}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })
+        (window, document, 'script', 'dataLayer', 'GTM-PKG884Q7');
+    </script>
+    <!-- End Google Tag Manager -->
+
 </head>
 
 <body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PKG884Q7" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- Preloader -->
     <div id="preloader">
         <div id="status">
@@ -54,9 +93,12 @@
                         <a href="#">Mannarpuram, Tiruchirapalli, Tamil Nadu</a>
                     </div>
                     <div class="head-social-icon ml-auto">
-                        <a href="https://www.facebook.com/safeaquatech" target="_blank"> <i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/tv/CjK8In_satJ/?igshid=YmMyMTA2M2Y" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://youtube.com/@safeaquatechtrichy8145" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/safeaquatech" target="_blank"> <i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/tv/CjK8In_satJ/?igshid=YmMyMTA2M2Y" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com/@safeaquatechtrichy8145" target="_blank"><i
+                                class="fab fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
@@ -66,7 +108,8 @@
         <nav class="navbar navbar-expand-lg top-menu">
             <div class="container-fluid">
                 <div class="logo">
-                    <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.png') }}" alt="logo" style="width: 200px;" /></a>
+                    <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.png') }}"
+                            alt="logo" style="width: 200px;" /></a>
                 </div>
                 <div class="collapse main-nav navbar-collapse" id="navbarSupportedContent-333">
                     <ul class="navbar-nav ml-auto">
@@ -91,13 +134,16 @@
                     </ul>
                 </div>
                 <div class="header-btn">
-                    <a href="https://api.whatsapp.com/send/?phone=%2B919344330043" target="_blank" class="button">Chat
+                    <a href="https://api.whatsapp.com/send/?phone=%2B919344330043" target="_blank"
+                        class="button">Chat
                         On WhatsApp</a>
                 </div>
                 <div class="mobile-btn bttn">
                     <a href="#"><i class="fas fa-envelope-open-text"></i></a>
                 </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"><i class="ti-menu"></i></span>
                 </button>
             </div>
@@ -130,13 +176,16 @@
             <div class="row">
                 <div class="col-lg-8 col-md-8">
                     <div class="blog-pic">
-                        <img src="{{ asset('assets/backend/blog/blog_image/' . $data->blog_image) }}" alt="{{ $data->image_alt }}" class="w-100" />
+                        <img src="{{ asset('assets/backend/blog/blog_image/' . $data->blog_image) }}"
+                            alt="{{ $data->image_alt }}" class="w-100" />
                     </div>
                     <div class="blog-single-item">
                         <div class="blog-content d-flex">
                             <div><i class="far fa-user"></i> <a href="#">By {{ $data->writer_name }}</a></div>
-                            <div class="icon"><i class="fas fa-calendar-alt"></i><a href="#">{{ date('d M Y', strtotime($data->blog_date)) }}</a></div>
-                            <div class="icon"><i class="fas fa-mouse-pointer"></i> <a href="#">{{ $data->blogmaster->master_name }}</a></div>
+                            <div class="icon"><i class="fas fa-calendar-alt"></i><a
+                                    href="#">{{ date('d M Y', strtotime($data->blog_date)) }}</a></div>
+                            <div class="icon"><i class="fas fa-mouse-pointer"></i> <a
+                                    href="#">{{ $data->blogmaster->master_name }}</a></div>
                         </div>
                         <h4>
                             <a href="#">{{ $data->title }}</a>
@@ -152,18 +201,20 @@
                         <h5>Recent Post</h5>
                     </div>
                     @foreach ($latestblog as $latestblogs)
-                    <div class="recent-content d-flex">
-                        <img src="{{ asset('assets/backend/blog/blog_image/' . $latestblogs->blog_image) }}" alt="{{ $latestblogs->image_alt }}" />
-                        <div class="recent-discription">
-                            <div class="ttl">
-                                <a href="{{ route('read-blog', ['title' => $latestblogs->slug_url, 'id' => $latestblogs->random_id]) }}">{{ $latestblogs->title }}</a>
-                            </div>
-                            <div class="date">
-                                <a href="#">By {{ $latestblogs->writer_name }} /
-                                    {{ date('d M Y', strtotime($latestblogs->blog_date)) }}</a>
+                        <div class="recent-content d-flex">
+                            <img src="{{ asset('assets/backend/blog/blog_image/' . $latestblogs->blog_image) }}"
+                                alt="{{ $latestblogs->image_alt }}" />
+                            <div class="recent-discription">
+                                <div class="ttl">
+                                    <a
+                                        href="{{ route('read-blog', ['title' => $latestblogs->slug_url, 'id' => $latestblogs->random_id]) }}">{{ $latestblogs->title }}</a>
+                                </div>
+                                <div class="date">
+                                    <a href="#">By {{ $latestblogs->writer_name }} /
+                                        {{ date('d M Y', strtotime($latestblogs->blog_date)) }}</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     @endforeach
 
                     <div class="category">
@@ -173,9 +224,10 @@
                         <div class="cata-content">
                             <ul>
                                 @foreach ($masterblogdata as $masterblogdatas)
-                                <li>
-                                    <a href="#"><i class="fas fa-angle-right"></i>{{ $masterblogdatas->master_name }}</a>
-                                </li>
+                                    <li>
+                                        <a href="#"><i
+                                                class="fas fa-angle-right"></i>{{ $masterblogdatas->master_name }}</a>
+                                    </li>
                                 @endforeach
                             </ul>
                         </div>
@@ -200,9 +252,12 @@
                         <li><a href="#">Mannarpuram, Tiruchirapalli</a></li>
                         <li><a href="#">Mon - Sat - 10.00 am - 7.00 pm</a></li>
                         <div class="footer-social">
-                            <a href="https://www.facebook.com/safeaquatech" target="_blank"> <i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.instagram.com/tv/CjK8In_satJ/?igshid=YmMyMTA2M2Y" target="_blank"><i class="fab fa-instagram"></i></a>
-                            <a href="https://youtube.com/@safeaquatechtrichy8145" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.facebook.com/safeaquatech" target="_blank"> <i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/tv/CjK8In_satJ/?igshid=YmMyMTA2M2Y" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://youtube.com/@safeaquatechtrichy8145" target="_blank"><i
+                                    class="fab fa-youtube"></i></a>
                         </div>
                     </ul>
                 </div>
@@ -258,7 +313,8 @@
                 </div>
                 <div class="col-lg-6 col-md-6 text-right">
                     <div class="footer-content">
-                        <p>Crafted by<a href="https://www.zworktechnology.com" target="_blank"> zworktechnology.com</span></a></p>
+                        <p>Crafted by<a href="https://www.zworktechnology.com" target="_blank">
+                                zworktechnology.com</span></a></p>
                     </div>
                 </div>
             </div>
