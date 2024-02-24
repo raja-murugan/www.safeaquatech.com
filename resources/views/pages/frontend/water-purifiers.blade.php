@@ -29,6 +29,7 @@
     <!-- Main Style -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/style.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/responsive.css') }}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
 
 <body>
@@ -84,6 +85,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('product') }}">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('blog') }}">Blog</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('contact') }}">Contact</a>

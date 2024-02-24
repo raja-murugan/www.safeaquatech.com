@@ -5,14 +5,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Water Purifier for Home | We Satisfy Your Water Purification Needs</title>
+    <title>Best Water Softener for Your Hard Water Issues</title>
     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.png') }}" />
 
-    <meta name="description" content="Discover the perfect water purifier for your home with our expert guidance. Explore top-notch Water Purifiers tailored to your needs.">
+    <meta name="description" content=" Experience the difference with our advanced water softener technology. Say goodbye to hard water problems with our effective water softener solutions.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.safeaquatech.com/">
-    <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers. ">
-    <meta property="og:description" content="Discover the perfect water purifier for your home with our expert guidance. Explore top-notch Water Purifiers tailored to your needs.">
+    <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with us.">
+    <meta property="og:description" content=" Experience the difference with our advanced water softener technology. Say goodbye to hard water problems with our effective water softener solutions.">
     <meta property="og:image" content="https://www.safeaquatech.com/assets/images/banner/banner2.jpg">
 
     <!-- Font Awesome -->
@@ -82,7 +82,7 @@
                             <a class="nav-link" href="{{ route('about') }}">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('service') }}">Service</a>
+                            <a class="nav-link" href="{{ route('service') }}">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('product') }}">Products</a>
@@ -117,10 +117,10 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="page-title text-center">
-                            <h2>Water Purifier</h2>
+                            <h2>Water Softener</h2>
                             <a href="{{ route('index') }}">Home</a>
                             <span>|</span>
-                            <a href="javascript:void(0)">Water Purifier for Home</a>
+                            <a href="javascript:void(0)">Water Softener</a>
                         </div>
                     </div>
                 </div>
@@ -132,75 +132,85 @@
     <!-- Blog Item Start -->
     <section class="blog-single item-section">
         <div class="container">
-            <h2>We Prioritize Your Health :</h2>
+            <h2>Your Trusted Water Softener Solutions Provider</h2>
             <div class="row">
                 <div class=" col-12 pt-3">
                     <p>
-                        Clean and safe drinking water is a cornerstone of a healthy life. In an age where water quality is increasingly a concern, having a reliable water purifier for home is essential.
-                        At Safe Aqua Tech, we understand the importance of ensuring your family has access to safe and pure drinking water.
-                        In this article, we'll delve into the significance of water purifiers for home and how we, Safe Aqua Tech, go the extra mile to provide installation and service for your dream water purifiers.
+                        At Safe Aqua Tech, we are dedicated to revolutionizing your water experience. As an authorized dealer of Alkara Water Softener, we offer premium solutions to tackle the challenges posed by hard water.
+                        With years of expertise in the industry, we pride ourselves on delivering top-quality products and unmatched customer service.
+                    </p>
+                </div>
+                <div class="col-sm-12 blog-single-item text-center">
+                    <div class="blog-pic">
+                        <img src="{{ asset('assets/frontend/img/water-softener/2.jpg') }}" style="width: 500px;" alt="blog" class="">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <h3 class="pt-3">Why Choose Water Softener Solutions?</h3>
+            <p>
+                Say goodbye to the hassles of dealing with hard water. Our range of water softeners is designed to efficiently remove minerals such as calcium and magnesium, which cause limescale buildup and other issues.
+                Enjoy softer, smoother water for bathing, cleaner dishes, and extended appliance lifespan with our hard water softener systems.
+            </p>
+            <div class="row">
+                <div class="col-5 blog-single-item">
+                    <div class="blog-pic">
+                        <img src="{{ asset('assets/frontend/img/water-softener/1.webp') }}" alt="blog" class="">
+                    </div>
+                </div>
+                <div class="col-7 pt-5">
+                    <h3 class="pb-3">Benefits of Our Water Softeners:</h3>
+                    <p><b>1. Scale Prevention :</b> Protect your plumbing and appliances from the damaging effects of limescale buildup.</p>
+                    <p><b>2. Improved Efficiency :</b> Experience better performance and longevity from your water-based appliances.</p>
+                    <p><b>3. Softer Skin and Hair :</b> Say hello to softer skin and shinier hair by showering in water that is gentle on your body.</p>
+                    <p><b>4. Spotless Surfaces :</b> Eliminate water spots on dishes, glassware, and fixtures, leaving them sparkling clean.</p>
+                    <p><b>5. Eco-Friendly :</b> Reduce your environmental footprint by using fewer harsh detergents and chemicals.</p>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-7 pt-3">
+                <h3 class="pt-3">Our Range of Water Softener Solutions</h3>
+                    <p class="pt-4">
+                        Explore our diverse selection of water softener systems tailored to meet your specific needs and budget.
+                        Whether you require a compact solution for a small household or a commercial-grade system for industrial applications, we have you covered.
+                        Discover the perfect hard water softener to transform the quality of your water and enhance your daily life.
+                    </p>
+                </div>
+                <div class="col-5 text-center blog-single-item">
+                    <div class="blog-pic">
+                        <picture>
+                            <img src="{{ asset('assets/frontend/img/water-softener/4.jpg') }}" style="width: 250px;" alt="blog" class="">
+                        </picture>
+
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-5 blog-single-item">
+                    <div class="blog-pic">
+                        <img src="{{ asset('assets/frontend/img/water-softener/3.webp') }}" alt="blog" class="">
+                    </div>
+                </div>
+                <div class="col-7 pt-5">
+                <h3 class="pt-3">Expert Installation and Support</h3>
+                    <p class="pt-3">
+                        Our team of skilled professionals is committed to ensuring seamless installation and ongoing support for your water softener system.
+                        Count on us to provide expert guidance, maintenance services, and troubleshooting assistance to keep your water softener running smoothly for years to come.
                     </p>
                 </div>
             </div>
-            <div class="blog-pic text-center pb-5">
-                <picture>
-                    <img src="{{ asset('assets/frontend/img/water-purifier-for-home/1.jpg') }}" alt="blog" class="">
-                </picture>
-            </div>
-
-            <h5 class="pt-3">Clean and Safe Water for Your Home :</h5>
-            <p>
-                Water purifiers for home are indispensable to ensure that the water you and your family consume is free from impurities and contaminants.
-                Clean and safe drinking water is a fundamental need, and water purifiers play a pivotal role in ensuring that your home is a haven of health and well-being.
+            <h3 class="pt-5">Contact Us Today:</h3>
+            <p class="pb-5">
+                Ready to experience the benefits of softener, healthier water? Get in touch with us today to learn more about our water softener solutions and find the perfect fit for your home or business. 
+                Say goodbye to hard water woes and hello to a new era of water quality excellence with Safe Aqua Tech.
             </p>
-
-            <h5 class="pt-3">Safe Aqua Tech's Dedication to Excellence :</h5>
-            <p>
-                Our mission goes beyond merely removing impurities.
-                We are dedicated to delivering comprehensive solutions that ensure the water in your home is of the highest quality and is safe for you and your loved ones.
-            </p>
-
-            <h5 class="pt-3">Advanced Purification Technology :</h5>
-            <p>
-                We use cutting-edge water purification technology to effectively eliminate a wide range of contaminants that can be found in tap water.
-                Our water purifiers are designed to remove impurities such as bacteria, viruses, sediments, heavy metals, chlorine, pesticides, and more.
-                With Safe Aqua Tech, you can be confident that your water is free from these harmful substances.
-            </p>
-
-            <h5 class="pt-3">Enhanced Taste and Quality :</h5>
-            <p>
-                Our water purifiers not only purify water but also enhance its taste and quality. By removing undesirable elements, our purifiers ensure that your water not only looks clean but also tastes and smells fresh.
-                This encourages your family to consume more water, promoting better health and well-being.
-            </p>
-
-            <h5 class="pt-3">Environmental Responsibility :</h5>
-            <p>
-                When you choose a water purifier from Safe Aqua Tech, you're making a responsible choice for the environment.
-                By opting for our systems, you reduce the need for single-use plastic water bottles, making a significant contribution to the reduction of plastic waste and pollution.
-                It's an eco-conscious choice for those who care about the environment.
-            </p>
-
-            <h5 class="pt-3">Installation and Service for Your Dream Water Purifiers :</h5>
-            <p>
-                At Safe Aqua Tech, we understand that owning a water purifier is a dream for many families. To make that dream a reality, we not only provide high-quality water purifiers but also offer professional installation and comprehensive service support.
-                Our skilled technicians ensure that your water purifier is set up correctly, and we are always there to provide timely maintenance and repairs, ensuring your purifier continues to deliver safe and clean water.
-            </p>
-
-            <div class="blog-pic text-center">
-                <picture>
-                    <img src="{{ asset('assets/frontend/img/water-purifier-for-home/2.jpg') }}" alt="blog" class="">
-                </picture>
-            </div>
-
-            <div class="pt-5 pb-3">
-                Safe Aqua Tech is your trusted partner in providing clean and safe drinking water for households around the world.
-                Our state-of-the-art water purifiers not only guarantee water purity but also contribute to a healthier and more sustainable future for your family and the environment.
-                We take pride in offering installation and service to make your dream of owning a water purifier a hassle-free reality. With Safe Aqua Tech, you can enjoy the peace of mind that comes with having safe, clean water in your home, along with exceptional service and support.
-                Choose Safe Aqua Tech for your dream water purifier and experience a healthier and happier life.
-            </div>
         </div>
     </section>
-    <br>
     <!-- Blog Item End -->
+
 
     @include('components.guest.footer')

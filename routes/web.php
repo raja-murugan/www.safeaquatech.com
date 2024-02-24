@@ -68,6 +68,17 @@ Route::get('/ro-installation-near-me', function () {
     return view('pages.frontend.ro-installation-near-me');
 })->name('ro-installation-near-me');
 
+Route::get('/water-softener', function () {
+    return view('pages.frontend.water-softener');
+})->name('water-softener');
+
+Route::get('/soft-water-conditioner', function () {
+    return view('pages.frontend.soft-water-conditioner');
+})->name('soft-water-conditioner');
+
+Route::get('/ro-water-plant', function () {
+    return view('pages.frontend.ro-water-plant');
+})->name('ro-water-plant');
 
 Route::get('/blog', [FrontendController::class, 'blogindex'])->name('blog');
 
