@@ -31,6 +31,14 @@
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/style.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/responsive.css') }}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <style>
+        @media only screen and (max-width: 600px) {
+            [class="col-7"] {
+                max-width: none;
+                flex: none;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -153,7 +161,7 @@
                         <img src="{{ asset('assets/frontend/img/ro-water-plant/2.webp') }}" alt="blog" class="">
                     </div>
                 </div>
-                <div class="col-7 pt-5">
+                <div class="col-7">
                     <h3 class="pb-3">Why Choose Our RO Water Plant Services?</h3>
                     <p><b>1. Advanced Filtration :</b> Our RO water plants utilize advanced filtration technology to remove impurities, contaminants, and dissolved solids, leaving you with water that meets the highest standards of purity.</p>
                     <p><b>2. Reliable Performance :</b> With our RO water plants, you can trust in reliable performance and consistent water quality. We prioritize durability and efficiency to ensure long-term satisfaction.</p>
@@ -165,7 +173,7 @@
 
             <h3 class="pt-3"></h3>
             <div class="row">
-                <div class="col-7 pt-5">
+                <div class="col-7">
                     <h3 class="pb-3">Our Range of Services</h3>
                     <p><b>1. Installation :</b> Let us handle the installation of your RO water plant with precision and expertise, ensuring optimal performance from day one.</p>
                     <p><b>2. Maintenance :</b> Regular maintenance is crucial for the longevity and efficiency of your RO water plant. Count on us for comprehensive maintenance services to keep your system running smoothly.</p>

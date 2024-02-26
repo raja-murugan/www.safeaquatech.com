@@ -31,6 +31,14 @@
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/style.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/responsive.css') }}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <style>
+        @media only screen and (max-width: 600px) {
+            [class="col-7"] {
+                max-width: none;
+                flex: none;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -155,10 +163,10 @@
             <div class="row">
                 <div class="col-5 blog-single-item">
                     <div class="blog-pic">
-                        <img src="{{ asset('assets/frontend/img/water-softener/1.webp') }}" alt="blog" class="">
+                        <img src="{{ asset('assets/frontend/img/water-softener/1.webp') }}" style="width: 500px;" alt="blog" class="">
                     </div>
                 </div>
-                <div class="col-7 pt-5">
+                <div class="col-7">
                     <h3 class="pb-3">Benefits of Our Water Softeners:</h3>
                     <p><b>1. Scale Prevention :</b> Protect your plumbing and appliances from the damaging effects of limescale buildup.</p>
                     <p><b>2. Improved Efficiency :</b> Experience better performance and longevity from your water-based appliances.</p>
@@ -170,8 +178,8 @@
             <hr>
 
             <div class="row">
-                <div class="col-7 pt-3">
-                <h3 class="pt-3">Our Range of Water Softener Solutions</h3>
+                <div class="col-7">
+                    <h3 class="pt-3">Our Range of Water Softener Solutions</h3>
                     <p class="pt-4">
                         Explore our diverse selection of water softener systems tailored to meet your specific needs and budget.
                         Whether you require a compact solution for a small household or a commercial-grade system for industrial applications, we have you covered.
@@ -195,8 +203,8 @@
                         <img src="{{ asset('assets/frontend/img/water-softener/3.webp') }}" alt="blog" class="">
                     </div>
                 </div>
-                <div class="col-7 pt-5">
-                <h3 class="pt-3">Expert Installation and Support</h3>
+                <div class="col-7">
+                    <h3 class="pt-3">Expert Installation and Support</h3>
                     <p class="pt-3">
                         Our team of skilled professionals is committed to ensuring seamless installation and ongoing support for your water softener system.
                         Count on us to provide expert guidance, maintenance services, and troubleshooting assistance to keep your water softener running smoothly for years to come.
@@ -205,7 +213,7 @@
             </div>
             <h3 class="pt-5">Contact Us Today:</h3>
             <p class="pb-5">
-                Ready to experience the benefits of softener, healthier water? Get in touch with us today to learn more about our water softener solutions and find the perfect fit for your home or business. 
+                Ready to experience the benefits of softener, healthier water? Get in touch with us today to learn more about our water softener solutions and find the perfect fit for your home or business.
                 Say goodbye to hard water woes and hello to a new era of water quality excellence with Safe Aqua Tech.
             </p>
         </div>

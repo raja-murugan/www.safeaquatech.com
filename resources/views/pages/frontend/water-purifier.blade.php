@@ -31,6 +31,14 @@
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/style.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/responsive.css') }}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <style>
+        @media only screen and (max-width: 600px) {
+            [class="col-7"] {
+                max-width: none;
+                flex: none;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -134,7 +142,7 @@
         <div class="container">
             <h2>Importance of Water Purifier</h2>
             <div class="row">
-                <div class=" col-12 pt-3">
+                <div class="col-12 pt-3">
                     <p>
                         A water purifier for home is a must-have appliance to ensure clean and safe drinking water.
                         With its advanced filtration technologies, it removes impurities and contaminants from your tap water, providing you with pure and healthy water right in your own kitchen.
@@ -149,14 +157,14 @@
                 </div>
             </div>
             <hr>
-            <h3 class="pt-3">Domestic Water Purifier</h3>
             <div class="row">
                 <div class="col-5 blog-single-item">
                     <div class="blog-pic">
                         <img src="{{ asset('assets/frontend/img/water-purifier/1.jpg') }}" alt="blog" class="">
                     </div>
                 </div>
-                <div class=" col-7 pt-5">
+                <div class="col-7">
+                    <h3 class="pt-3 mb-3">Domestic Water Purifier :</h3>
                     <p>
                         At Safe Aqua Tech, we offer top-quality domestic water purifiers specifically designed for homes.
                         Our range of water purifiers includes activated carbon filters, reverse osmosis systems, and UV disinfection units, ensuring clean and safe water for your household.
@@ -168,9 +176,9 @@
             </div>
             <hr>
 
-            <h3 class="pt-3">Commercial Water Purifier</h3>
+            <h3 class="pt-3 mb-3">Commercial Water Purifier :</h3>
             <div class="row">
-                <div class=" col-7 pt-5">
+                <div class="col-7">
                     <p>
                         We not only provide domestic water purifiers, but also offer commercial water purifiers designed for businesses and larger establishments.
                         Our commercial water purifiers are equipped with advanced filtration technologies to ensure the removal of contaminants and provide clean and safe drinking water.
@@ -189,14 +197,14 @@
                 </div>
             </div>
             <hr>
-            <h3 class="pt-3">Industrial Water Purifier</h3>
             <div class="row">
                 <div class="col-5 blog-single-item">
                     <div class="blog-pic">
                         <img src="{{ asset('assets/frontend/img/water-purifier/3.jpg') }}" alt="blog" class="">
                     </div>
                 </div>
-                <div class=" col-7 pt-5">
+                <div class="col-7">
+                    <h3 class="pt-3 mb-3">Industrial Water Purifier :</h3>
                     <p>
                         Safe Aqua Tech is a trusted provider of industrial water purifiers, offering robust solutions designed for large-scale water purification needs.
                         Our industrial-grade water purifiers are equipped with cutting-edge technologies to effectively remove contaminants and provide clean, safe water for various industrial applications. With our exceptional sales and service, we prioritize customer satisfaction by delivering personalized recommendations based on specific requirements.
