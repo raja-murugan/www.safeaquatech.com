@@ -162,3 +162,5 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     });
 });
 
+// CONTACT CONTROLLER // STORE
+Route::post('/contact/store', [ContactController::class, 'store'])->name('contact.store');

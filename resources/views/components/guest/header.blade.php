@@ -10,7 +10,7 @@
         purification company in Tiruchirappalli, Tamil Nadu
     </title>
     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.png') }}" />
-    
+
     <meta name="description" content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.safeaquatech.com/">
@@ -34,6 +34,8 @@
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/style.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/responsive.css') }}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 
 </head>
 
