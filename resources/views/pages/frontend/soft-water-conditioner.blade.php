@@ -59,9 +59,9 @@
                         <a href="#">Mannarpuram, Tiruchirapalli, Tamil Nadu</a>
                     </div>
                     <div class="head-social-icon ml-auto">
-                        <a href="https://www.facebook.com/safeaquatech" target="_blank"> <i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/tv/CjK8In_satJ/?igshid=YmMyMTA2M2Y" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://youtube.com/@safeaquatechtrichy8145" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/safeaquatech.tpj" target="_blank"> <i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/safeaquatech.tpj" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/@safeaquatech_tpj" target="_blank"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
@@ -174,7 +174,7 @@
 
             <h5 class="pt-3">Transform Your Water Quality Today</h5>
             <p>
-                Ready to experience the benefits of soft, luxurious water? Discover the difference that Safe Aqua Tech's soft water conditioner solutions can make in your home or business. 
+                Ready to experience the benefits of soft, luxurious water? Discover the difference that Safe Aqua Tech's soft water conditioner solutions can make in your home or business.
                 Say goodbye to hard water hassles and hello to a new era of water quality excellence with Safe Aqua Tech.
             </p>
 
