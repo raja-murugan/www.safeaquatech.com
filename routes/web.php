@@ -19,6 +19,7 @@ use App\Http\Controllers\FrontendController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/sitemap.xml', [FrontendController::class, 'sitemap'])->name('sitemap');
 
 Route::get('/', function () {
     return view('welcome');

@@ -1,8 +1,8 @@
 /*
     Theme Name: Purican.
-    Theme URI: 
+    Theme URI:
     Author: Themeies
-    Author URI: 
+    Author URI:
     Version: 2.0
     Description: Purican is a Delevary HTML5 Template.
 */
@@ -18,7 +18,7 @@
     07. Overlap Image Box
     08. Image Box
     09. Icon list block
-    
+
     01. Header style
     02. Banner style
     03. Block style
@@ -28,13 +28,13 @@
     07. Team section
     08. Work section
     09. Branch section
-    10. Testimonial section 
+    10. Testimonial section
     11. Journal section
     12. Slider section
     13. Blog section
     14. Product section
     15. About page
-    16. Team page 
+    16. Team page
     17. Shop page
     18. Shop-Product page
     19. Blog page
@@ -42,7 +42,7 @@
     21. Contact page
     22. Contact section
     23. Footer
-   
+
 */
 @import url("../../../css2");
 @import url("../../../css2-1");
@@ -211,7 +211,7 @@ li {
   transform: translate(-50%, -50%);
   padding: 25px;
   text-align: center;
- 
+
 }
 
 #status:before {
@@ -340,7 +340,7 @@ li {
 .navbar {
   padding: 0px 125px;
   height: 90px;
- 
+
 }
 .header .nav-item {
   padding: 7px 19px;
@@ -395,7 +395,7 @@ li {
   border: none;
   transition: .5s;
   border-bottom: 1px solid #f1f1f1;
-  
+
 }
 .dropdown-item:last-of-type {
 	border: none;
@@ -409,7 +409,7 @@ li {
   font-size: 18px;
   color: #111111;
   margin-right: 35px;
-  
+
 }
 .header-social {
   position: relative;
@@ -650,7 +650,7 @@ form .top-input {
  /* Flyout Cart Start
  *****************************/
  /*********************************
-/* MiniCart Start 
+/* MiniCart Start
 *********************************/
 .miniCart .header__cart {
   margin-left: 18px;
@@ -1206,11 +1206,11 @@ form .top-input {
 }
 
 /*********************************
-/* Flyout Card End 
+/* Flyout Card End
 *********************************/
 
 /*********************************
-/* Quantity Start 
+/* Quantity Start
 *********************************/
 .quantity {
   display: -webkit-inline-box;
@@ -1317,7 +1317,7 @@ form .top-input {
 }
 
 /*********************************
-/* Quantity End 
+/* Quantity End
 *********************************/
 
 /* ==========================
@@ -1333,7 +1333,7 @@ form .top-input {
 .banner-bg {
   display: block;
   width: 100%;
-  background-color: rgb(0 50 162 / 70%);
+  background-color: rgb(0 50 162 / 40%);
 }
 
 
@@ -1895,7 +1895,7 @@ form .top-input {
   height: auto;
   transform: scale(1);
   transition: .3s linear;
- 
+
 }
 .team-overlay {
   position: absolute;
@@ -2475,7 +2475,7 @@ form .top-input {
       -ms-transition: all .2s ease;
           transition: all .2s ease;
           opacity: .2;
-  
+
 }
 .client-logo img:hover {
   filter: grayscale(0%);
@@ -2776,7 +2776,7 @@ form .top-input {
   transform: scale(1.2);
 }
 
- 
+
 .blog-single-pic img{
   border-radius: 5px;
 
@@ -3730,7 +3730,7 @@ form .top-input {
   border: 1px solid #d9dde4;
   border-radius: 3px;
   padding: 12px;
-  
+
 } */
 
 
@@ -3908,7 +3908,7 @@ form .top-input {
 }
 
  #map {
-  
+
   z-index: 9;
 }
 .contact-form h3 {
@@ -3954,7 +3954,7 @@ form .top-input {
   padding: 50px 50px 15px 50px;
   text-align: center;
   border-left: 2px solid #1086ff;
- 
+
 }
 
 @media (max-width: 479px) {
@@ -3984,7 +3984,7 @@ form .top-input {
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
   margin-right: 28px;
-          
+
 }
 
 .back-to-top img:hover {
@@ -4085,7 +4085,7 @@ form .top-input {
 .header02 .navbar {
   padding: 0px;
   height: 90px;
- 
+
 }
 
 
@@ -4096,7 +4096,7 @@ form .top-input {
 /* Banner-01 start */
 
 
-.banner-02 {   
+.banner-02 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
@@ -4156,7 +4156,7 @@ top: 0 !important;
   padding: 30px;
   transition: .5s;
   cursor: pointer;
-  
+
 }
 
 
@@ -4167,7 +4167,7 @@ top: 0 !important;
   border-radius: 3px;
   box-shadow: 0px 0px 15px #e4e7e9;
   transition: .5s;
- 
+
 }
 .buisness-item h4 {
   padding-top: 25px;
@@ -4180,7 +4180,7 @@ top: 0 !important;
 }
 
 .pricing-card h4:hover {
-  color: #fff;  
+  color: #fff;
 }
 
 .pricing-item {
@@ -4233,7 +4233,7 @@ top: 0 !important;
 
 .pricing-card:hover ul li a {
   color: #fff;
-} 
+}
 .pricing-card:hover h2 {
   color: #fff;
 }
@@ -4245,7 +4245,7 @@ top: 0 !important;
 
 .pricing-card:hover {
   border-color: #1086ff;
- 
+
 }
 .pricing-card:hover .pricing-item,
 .pricing-card:hover .buisness-item {
@@ -4493,24 +4493,24 @@ top: 0 !important;
 	box-shadow: none;
 	position: relative;
   }
-  
+
   @media screen and (max-width: 767px) {
 	.team__item__box {
 	  margin-bottom: 30px;
 	}
   }
-  
+
   .team__item__box .team__avatar {
 	overflow: hidden;
 	border-radius: 8px;
   }
-  
+
   .team__item__box .team__avatar img {
 	transition: all 300ms ease-in-out;
 	border-radius: 8px;
 	overflow: hidden;
   }
-  
+
   .team__item__box .team__content {
 	position: absolute;
 	bottom: 0;
@@ -4525,20 +4525,20 @@ top: 0 !important;
 	flex-direction: column;
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
   }
-  
+
   .team__item__box .team__content h5 {
 	font-family: "Muli";
 	font-size: 25px;
 	margin-bottom: 8px;
   }
-  
+
   .team__item__box .team__content h5 a {
 	margin-bottom: 0;
 	color: #fff;
 	transition: all 300ms ease-in-out;
 	text-decoration: none;
   }
-  
+
   .team__item__box .team__content .designation {
 	font-family: "Muli";
 	font-size: 16px;
@@ -4547,11 +4547,11 @@ top: 0 !important;
 	margin-bottom: 10px;
 	text-transform: capitalize;
   }
-  
+
   .team__item__box .social__icon {
 	transition: all 300ms ease-in-out;
   }
-  
+
   .team__item__box .social__icon ul {
 	align-items: center;
 	display: flex;
@@ -4560,7 +4560,7 @@ top: 0 !important;
 	display: inline-flex;
 	list-style-type: none;
   }
-  
+
   .team__item__box .social__icon ul li a {
 	color: #fff;
 	font-size: 16px;
@@ -4568,19 +4568,19 @@ top: 0 !important;
 	margin-right: 24px;
 	transition: all 300ms ease-in-out;
   }
-  
+
   .team__item__box .social__icon ul li a:hover {
 	color: #ffa922;
   }
-  
+
   .team__item__box .social__icon ul li:last-child a {
 	margin-right: 0;
   }
-  
+
   .team__item__box:hover h5 a {
 	color: #ffa922;
   }
-  
+
   .team__item__box:hover .team__avatar img {
 	transform: scale(1.1) rotate(4deg);
   }
@@ -4595,7 +4595,7 @@ top: 0 !important;
 *****************************/
 
 .pricing__section {
-	padding: 120px 0;	
+	padding: 120px 0;
 }
 .pricing__wrapper {
 	background: #fff;
@@ -4609,41 +4609,41 @@ top: 0 !important;
 	-webkit-transition: all 300ms ease-in-out;
 	transition: all 300ms ease-in-out;
   }
-  
+
   @media screen and (max-width: 1440px) {
 	.pricing__wrapper {
 	  padding: 40px 30px;
 	}
   }
-  
+
   @media screen and (max-width: 1199px) {
 	.pricing__wrapper {
 	  padding: 40px 25px;
 	}
   }
-  
+
   @media screen and (max-width: 991px) {
 	.pricing__wrapper {
 	  margin-bottom: 30px;
 	}
   }
-  
+
   @media screen and (max-width: 767px) {
 	.pricing__wrapper {
 	  padding: 40px 15px;
 	}
   }
-  
+
   .pricing__wrapper .pricing__logo {
 	margin-bottom: 25px;
   }
-  
+
   .pricing__wrapper .pricing__logo svg path {
 	fill: #000000;
 	-webkit-transition: all 300ms ease-in-out;
 	transition: all 300ms ease-in-out;
   }
-  
+
   .pricing__wrapper .pricing__header {
 	font-family: "Roboto", sans-serif;
 	font-size: 32px;
@@ -4656,7 +4656,7 @@ top: 0 !important;
 	-webkit-transition: all 300ms ease-in-out;
 	transition: all 300ms ease-in-out;
   }
-  
+
   .pricing__wrapper .sub__header {
 	font-family: "Roboto", sans-serif;
 	font-size: 18px;
@@ -4667,7 +4667,7 @@ top: 0 !important;
 	display: block;
 	text-transform: capitalize;
   }
-  
+
   .pricing__wrapper .price {
 	font-family: "Roboto", sans-serif;
 	font-size: 48px;
@@ -4683,18 +4683,18 @@ top: 0 !important;
 	-webkit-transition: all 300ms ease-in-out;
 	transition: all 300ms ease-in-out;
   }
-  
+
   @media screen and (max-width: 479px) {
 	.pricing__wrapper .price {
 	  font-size: 40px;
 	}
   }
-  
+
   .pricing__wrapper .price sup {
 	font-size: 18px;
 	line-height: 24px;
   }
-  
+
   .pricing__wrapper .price span {
 	font-size: 12px;
 	color: #5c6680;
@@ -4704,7 +4704,7 @@ top: 0 !important;
 	position: relative;
 	margin-left: 16px;
   }
-  
+
   .pricing__wrapper .price span::before {
 	content: "";
 	position: absolute;
@@ -4716,12 +4716,12 @@ top: 0 !important;
 	width: 1px;
 	background: #e9e9e9;
   }
-  
+
   .pricing__wrapper ul {
 	max-width: 240px;
 	margin: 43px auto 0px;
   }
-  
+
   .pricing__wrapper ul li {
 	font-family: "Roboto", sans-serif;
 	font-size: 17px;
@@ -4737,26 +4737,26 @@ top: 0 !important;
 	margin: 10px 0px;
 	text-align: center;
   }
-  
+
   @media screen and (max-width: 767px) {
 	.pricing__wrapper ul li {
 	  font-size: 14px;
 	}
   }
-  
+
   @media screen and (max-width: 575px) {
 	.pricing__wrapper ul li {
 	  font-size: 16px;
 	}
   }
-  
+
   .pricing__wrapper ul li img {
 	width: auto;
 	height: auto;
 	margin-right: 10px;
 	display: inline-block;
   }
-  
+
   .pricing__wrapper .card__btn {
 	margin-top: 55px;
   }
@@ -4766,22 +4766,22 @@ top: 0 !important;
     border: none;
     display: block;
   }
-  
+
  .pricing__wrapper:hover {
 	-webkit-box-shadow: 0px 28px 40px rgba(14, 30, 53, 0.2);
 			box-shadow: 0px 28px 40px rgba(14, 30, 53, 0.2);
 	-webkit-transform: translateY(-10px);
 			transform: translateY(-10px);
   }
-  
+
   .pricing__wrapper:hover .pricing__header {
 	color: #1086ff;
   }
-  
+
   .pricing__wrapper:hover .price {
 	color: #1086ff;
   }
-  
+
 
   .pricing__wrapper:hover svg path {
 	fill: #1086ff;
@@ -4822,9 +4822,9 @@ top: 0 !important;
 .hero-text p {
     color: #667085;
 } */
-  
-  
-  
+
+
+
 .banner-video-btn {
 	float: right;
 }
@@ -4843,7 +4843,7 @@ top: 0 !important;
   animation: pulse-animation 2s infinite;
   filter: drop-shadow(0px 0px 20px #8e8d8d21);
 }
-  
+
 @-webkit-keyframes pulse-animation {
   0% {
     -webkit-box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
@@ -4854,7 +4854,7 @@ top: 0 !important;
         box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
   }
 }
-  
+
 @keyframes pulse-animation {
   0% {
     -webkit-box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
