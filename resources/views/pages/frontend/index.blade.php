@@ -77,11 +77,11 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- Preloader -->
-    <div id="preloader">
+    {{-- <div id="preloader">
         <div id="status">
             <img src="{{ asset('assets/frontend/images/favlogo.png') }}" alt="perloader" />
         </div>
-    </div>
+    </div> --}}
 
     <!-- Header Start -->
     <header class="header">
