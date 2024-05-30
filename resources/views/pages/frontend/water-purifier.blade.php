@@ -84,22 +84,22 @@
                 <div class="collapse main-nav navbar-collapse" id="navbarSupportedContent-333">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('index') }}">Home</a>
+                            <a class="nav-link {{ Route::is('index') ? 'active' : '' }}" href="{{ route('index') }}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('about') }}">About</a>
+                            <a class="nav-link {{ Route::is('about') ? 'active' : '' }}" href="{{ route('about') }}">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('service') }}">Service</a>
+                            <a class="nav-link {{ Route::is('service') ? 'active' : '' }}" href="{{ route('service') }}">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('product') }}">Products</a>
+                            <a class="nav-link {{ Route::is('product') ? 'active' : '' }}" href="{{ route('product') }}">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('blog') }}">Blog</a>
+                            <a class="nav-link {{ Route::is('blog') ? 'active' : '' }}" href="{{ route('blog') }}">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('contact') }}">Contact</a>
+                            <a class="nav-link {{ Route::is('contact') ? 'active' : '' }}" href="{{ route('contact') }}">Contact</a>
                         </li>
                     </ul>
                 </div>

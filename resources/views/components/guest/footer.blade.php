@@ -65,7 +65,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="footer-content">
-                        <p>Copyright © 2023 Safe Aqua Tech. All Rights Reserved</p>
+                        <p>Copyright © 2023 <a href="" target="_blank">Safe Aqua Tech</a>. All Rights Reserved</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 text-right">

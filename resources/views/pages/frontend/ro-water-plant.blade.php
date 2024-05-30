@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>RO Water Plant Installation & Maintenance Services</title>
+    <title> RO Water Plant Sales & Maintenance Services</title>
     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.png') }}" />
 
     <meta name="description" content=" Discover cutting-edge RO water plant technology for unparalleled water purification. Trust our RO plant solutions for clean, safe water. Upgrade today!">
@@ -84,22 +84,22 @@
                 <div class="collapse main-nav navbar-collapse" id="navbarSupportedContent-333">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('index') }}">Home</a>
+                            <a class="nav-link {{ Route::is('index') ? 'active' : '' }}" href="{{ route('index') }}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('about') }}">About</a>
+                            <a class="nav-link {{ Route::is('about') ? 'active' : '' }}" href="{{ route('about') }}">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('service') }}">Services</a>
+                            <a class="nav-link {{ Route::is('service') ? 'active' : '' }}" href="{{ route('service') }}">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('product') }}">Products</a>
+                            <a class="nav-link {{ Route::is('product') ? 'active' : '' }}" href="{{ route('product') }}">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('blog') }}">Blog</a>
+                            <a class="nav-link {{ Route::is('blog') ? 'active' : '' }}" href="{{ route('blog') }}">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('contact') }}">Contact</a>
+                            <a class="nav-link {{ Route::is('contact') ? 'active' : '' }}" href="{{ route('contact') }}">Contact</a>
                         </li>
                     </ul>
                 </div>
