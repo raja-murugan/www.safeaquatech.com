@@ -205,7 +205,7 @@
                             UV purifiers to smart water purifiers, we have the perfect solution for your home, ensuring
                             safe and delicious drinking water for your family.</p>
                         <p><span style ="color: #ffa922;"><b>Water Softeners:</b></span> Hard water can damage
-                            appliances and leave residue. Our water softener eliminate these problems, providing soft,
+                            appliances and leave residue. Our <span><a href="{{ route('water-softener') }}">water softener</a></span> eliminate these problems, providing soft,
                             gentle water for your entire home.</p>
                         <p><span style ="color: #ffa922;"><b>Industrial Water Treatment Plants:</b></span> We design
                             and install customized water treatment plants for industrial applications, ensuring your
@@ -332,7 +332,7 @@
                         </h2>
                         <p>
                             For industrial or home needs, our industrial water treatment solutions ensure high
-                            efficiency and reliability. We specialize for testing (22 water molecular test) the water
+                            efficiency and reliability. We specialize for testing <b>(22 water molecular test)</b> the water
                             for which kind of purifying process is suitable for the each & every customer and
                             installation of reverse osmosis plant, and water softener systems for home or business.</p>
                         <p><span style ="color: #ffa922;"><b>Wide range of products and services:</b></span> We cater
@@ -344,7 +344,7 @@
                         <p><span style ="color: #ffa922;"><b>Quality & Reliability:</b></span> We only use top-quality
                             products and provide reliable installation
                             and maintenance services.
-                        <p>Whether you need a reliable water purifier for home or a soft water conditioner for enhanced
+                        <p>Whether you need a reliable water purifier for home or a <span><a href="{{ route('soft-water-conditioner') }}">soft water conditioner</a></span> for enhanced
                             water quality, we have you covered.</p>
                         <p>Our range includes advanced water conditioners specifically for home use, ensuring that
                             every drop of water you use is clean, safe, and free from impurities. With our expertise in
@@ -608,7 +608,7 @@
                         <div class="work-content">
                             <a href="#">Purification Journey</a>
                             <p>
-                                By meticulously filtering, we eliminate impurities, assuring each sip meets the highest
+                                By meticulously filtering, we <span><a href="{{ route('water-purifier') }}">eliminate impurities</a></span>, assuring each sip meets the highest
                                 safety standards.
                             </p>
                         </div>
@@ -752,27 +752,27 @@
                     <div class="owl-carousel slider-3">
                         <div class="item">
                             <div class="client-logo">
-                                <img src="{{ asset('assets/frontend/images/brand/1.webp') }}" alt="client" />
+                                <img src="{{ asset('assets/frontend/images/brand/1.png') }}" alt="client" />
                             </div>
                         </div>
                         <div class="item">
                             <div class="client-logo">
-                                <img src="{{ asset('assets/frontend/images/brand/2.webp') }}" alt="client" />
+                                <img src="{{ asset('assets/frontend/images/brand/2.png') }}" alt="client" />
                             </div>
                         </div>
                         <div class="item">
                             <div class="client-logo">
-                                <img src="{{ asset('assets/frontend/images/brand/3.webp') }}" alt="client" />
+                                <img src="{{ asset('assets/frontend/images/brand/3.png') }}" alt="client" />
                             </div>
                         </div>
                         <div class="item">
                             <div class="client-logo">
-                                <img src="{{ asset('assets/frontend/images/brand/4.webp') }}" alt="client" />
+                                <img src="{{ asset('assets/frontend/images/brand/4.png') }}" alt="client" />
                             </div>
                         </div>
                         <div class="item">
                             <div class="client-logo">
-                                <img src="{{ asset('assets/frontend/images/brand/5.webp') }}" alt="client" />
+                                <img src="{{ asset('assets/frontend/images/brand/5.png') }}" alt="client" />
                             </div>
                         </div>
                     </div>

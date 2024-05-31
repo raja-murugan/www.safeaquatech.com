@@ -132,9 +132,9 @@
     <!-- Blog Item Start -->
     <section class="blog-single item-section">
         <div class="container">
-            <h2 class="text-left">Our Experts Experience in Words :</h2>
+            <h4 class="text-left">Our Experts Experience in Words :</h4>
             <p>
-                At Safe Aqua Tech, our team is dedicated to providing excellence in the installation of water purifiers and service.
+                At Safe Aqua Tech, our team is dedicated to providing excellence in the installation of <span><a href="{{ route('water-purifiers') }}">water purifiers</a></span> and service.
                 With our expertise and commitment to customer satisfaction, you can trust us to deliver the highest quality solutions for your water purification needs.
             </p>
 
@@ -150,7 +150,7 @@
                 </p>
                 <br>
                 <p class="pl-5">
-                    <b>2.</b> In addition to installation, our team is always ready to provide prompt and reliable service for your water purifier.
+                    <b>2.</b> In addition to installation, our team is always ready to provide prompt and <span><a href="{{ route('service') }}">reliable service</a></span> for your water purifier.
                     Whether it's routine maintenance, filter replacement, or troubleshooting, we will be there to address any concerns and keep your water purifier functioning at its best.
                 </p>
                 <br>
