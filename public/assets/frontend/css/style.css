@@ -1442,7 +1442,7 @@ form .top-input {
  ============================*/
 
 .banner-section {
-  background: url("../images/banner/1.jpg");
+  background: url("../images/banner/1.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1789,7 +1789,7 @@ form .top-input {
  ============================*/
 
 .company-section {
-  background: url("../img/order-pic/delivary-back.jpg");
+  background: url("../img/order-pic/delivary-back.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -2306,7 +2306,7 @@ form .top-input {
  ============================*/
 
 .testimonial-section {
-  background: url("../img/testimonials/testimonial-back.jpg");
+  background: url("../img/testimonials/testimonial-back.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -2741,7 +2741,7 @@ form .top-input {
  ============================*/
 
 .page-banner {
-  background: url(../img/banner-pic/blog-page-back.jpg);
+  background: url(../img/banner-pic/blog-page-back.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -4227,7 +4227,7 @@ form .top-input {
 .banner-02 .banner-bg {
   display: block;
   width: 100%!important;
-  background-image: url("../img/banner-pic/hero-background2.jpg");
+  background-image: url("../img/banner-pic/hero-background2.webp");
   position: relative;
   top: 0 !important;
   height: 100%;
@@ -4376,7 +4376,7 @@ top: 0 !important;
 /* COUNT SECTION START */
 
 .count-section {
-  background: url(../img/counter-bg/conter-background.jpg);
+  background: url(../img/counter-bg/conter-background.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -4515,7 +4515,7 @@ top: 0 !important;
 }
 
 .banner-03 {
-  background-image: url("../img/banner-pic/background3.jpg");
+  background-image: url("../img/banner-pic/background3.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -4914,7 +4914,7 @@ top: 0 !important;
 /* Banner Section Start
 *********************************/
 .banner-section-v4 {
-	background: url("../img/banner-pic/banner-04.jpg");
+	background: url("../img/banner-pic/banner-04.webp");
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 12% 0% 11%;

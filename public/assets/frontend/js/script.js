@@ -69,10 +69,10 @@
 
 
 
-    /*========== 
-   
-   Start Counter To Js Statistics   
-   
+    /*==========
+
+   Start Counter To Js Statistics
+
    ==========*/
     if ($('.timer').length > 0) {
         $('.timer').countTo();
@@ -263,7 +263,7 @@
             marker = new google.maps.Marker({
                 position: new google.maps.LatLng(locations[i][1], locations[i][2]),
                 map: map,
-                icon: 'assets/img/home1.png',
+                icon: 'assets/img/home1.webp',
             });
 
             google.maps.event.addListener(marker, 'click', (function (marker, i) {
@@ -283,7 +283,7 @@
 
 
 
-    // Back to Top JS 
+    // Back to Top JS
 
     $('body').append('<div id="toTop" class="back-to-top"><i class="ti-arrow-up"></i></div>');
     $(window).on('scroll', function () {

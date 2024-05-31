@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title> Water Purifier for Home, Commercial and Industrial Use</title>
-    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.png') }}" />
+    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
 
     <meta name="description" content="Discover top-tier water purifiers for home, commercial, and industrial use. Elevate your water quality with our advanced purification solutions. Trust in us.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.safeaquatech.com/">
     <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers. ">
     <meta property="og:description" content="Discover top-tier water purifiers for home, commercial, and industrial use. Elevate your water quality with our advanced purification solutions. Trust in us.">
-    <meta property="og:image" content="https://www.safeaquatech.com/assets/images/banner/banner2.jpg">
+    <meta property="og:image" content="https://www.safeaquatech.com/assets/images/banner/banner2.webp">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/fontawesome.min.css') }}" />
@@ -45,7 +45,7 @@
     <!-- Preloader -->
     {{-- <div id="preloader">
         <div id="status">
-            <img src="{{ asset('assets/frontend/images/favlogo.png') }}" alt="perloader" />
+            <img src="{{ asset('assets/frontend/images/favlogo.webp') }}" alt="perloader" />
         </div>
     </div> --}}
 
@@ -79,7 +79,7 @@
         <nav class="navbar navbar-expand-lg top-menu">
             <div class="container-fluid">
                 <div class="logo">
-                    <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.png') }}" alt="logo" style="width: 200px;" /></a>
+                    <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.webp') }}" alt="logo" style="width: 200px;" /></a>
                 </div>
                 <div class="collapse main-nav navbar-collapse" id="navbarSupportedContent-333">
                     <ul class="navbar-nav ml-auto">
@@ -152,7 +152,7 @@
                 </div>
                 <div class="col-sm-12 blog-single-item text-center">
                     <div class="blog-pic">
-                        <img src="{{ asset('assets/frontend/img/blog-page/1.jpg') }}" alt="blog" class="">
+                        <img src="{{ asset('assets/frontend/img/blog-page/1.webp') }}" alt="blog" class="">
                     </div>
                 </div>
             </div>
@@ -160,7 +160,7 @@
             <div class="row">
                 <div class="col-5 blog-single-item">
                     <div class="blog-pic">
-                        <img src="{{ asset('assets/frontend/img/water-purifier/1.jpg') }}" alt="blog" class="">
+                        <img src="{{ asset('assets/frontend/img/water-purifier/1.webp') }}" alt="blog" class="">
                     </div>
                 </div>
                 <div class="col-7">
@@ -190,7 +190,7 @@
                 <div class="col-5 text-center blog-single-item">
                     <div class="blog-pic">
                         <picture>
-                            <img src="{{ asset('assets/frontend/img/water-purifier/2.jpg') }}" alt="blog" class="">
+                            <img src="{{ asset('assets/frontend/img/water-purifier/2.webp') }}" alt="blog" class="">
                         </picture>
 
                     </div>
@@ -200,7 +200,7 @@
             <div class="row">
                 <div class="col-5 blog-single-item">
                     <div class="blog-pic">
-                        <img src="{{ asset('assets/frontend/img/water-purifier/3.jpg') }}" alt="blog" class="">
+                        <img src="{{ asset('assets/frontend/img/water-purifier/3.webp') }}" alt="blog" class="">
                     </div>
                 </div>
                 <div class="col-7">

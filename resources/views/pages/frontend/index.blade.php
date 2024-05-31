@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Water Purifier Sales and Service | Trusted Provider for Purifiers</title>
-    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.png') }}" />
+    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
 
     <meta name="description"
         content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
@@ -15,7 +15,7 @@
     <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers. ">
     <meta property="og:description"
         content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
-    <meta property="og:image" content="https://www.safeaquatech.com/assets/images/banner/banner2.jpg">
+    <meta property="og:image" content="https://www.safeaquatech.com/assets/images/banner/banner2.webp">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/fontawesome.min.css') }}" />
@@ -79,7 +79,7 @@
     <!-- Preloader -->
     {{-- <div id="preloader">
         <div id="status">
-            <img src="{{ asset('assets/frontend/images/favlogo.png') }}" alt="perloader" />
+            <img src="{{ asset('assets/frontend/images/favlogo.webp') }}" alt="perloader" />
         </div>
     </div> --}}
 
@@ -116,7 +116,7 @@
         <nav class="navbar navbar-expand-lg top-menu">
             <div class="container-fluid">
                 <div class="logo">
-                    <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.png') }}"
+                    <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.webp') }}"
                             alt="logo" style="width: 200px;" /></a>
                 </div>
                 <div class="collapse main-nav navbar-collapse" id="navbarSupportedContent-333">
@@ -368,7 +368,7 @@
             <div class="row align-items-center">
                 <div class="col-xl-6 col-md-12">
                     <div class="about-pic">
-                        <img src="{{ asset('assets/frontend/images/about/1.jpg') }}" alt="About"
+                        <img src="{{ asset('assets/frontend/images/about/1.webp') }}" alt="About"
                             class="w-100" />
                     </div>
                 </div>
@@ -466,7 +466,7 @@
                     <div class="owl-carousel slider">
                         <div class="item">
                             <div class="product-item">
-                                <img src="{{ asset('assets/frontend/images/service/1.png') }}" alt="product" />
+                                <img src="{{ asset('assets/frontend/images/service/1.webp') }}" alt="product" />
                             </div>
                             <div class="price">
                                 <div class="price-content">
@@ -476,7 +476,7 @@
                         </div>
                         <div class="item">
                             <div class="product-item">
-                                <img src="{{ asset('assets/frontend/images/service/2.png') }}" alt="product" />
+                                <img src="{{ asset('assets/frontend/images/service/2.webp') }}" alt="product" />
                             </div>
                             <div class="price">
                                 <div class="price-content">
@@ -486,7 +486,7 @@
                         </div>
                         <div class="item">
                             <div class="product-item">
-                                <img src="{{ asset('assets/frontend/images/service/3.png') }}" alt="product" />
+                                <img src="{{ asset('assets/frontend/images/service/3.webp') }}" alt="product" />
                             </div>
                             <div class="price">
                                 <div class="price-content">
@@ -496,7 +496,7 @@
                         </div>
                         <div class="item">
                             <div class="product-item">
-                                <img src="{{ asset('assets/frontend/images/service/4.png') }}" alt="product" />
+                                <img src="{{ asset('assets/frontend/images/service/4.webp') }}" alt="product" />
                             </div>
                             <div class="price">
                                 <div class="price-content">
@@ -506,7 +506,7 @@
                         </div>
                         <div class="item">
                             <div class="product-item">
-                                <img src="{{ asset('assets/frontend/images/service/5.png') }}" alt="product" />
+                                <img src="{{ asset('assets/frontend/images/service/5.webp') }}" alt="product" />
                             </div>
                             <div class="price">
                                 <div class="price-content">
@@ -516,7 +516,7 @@
                         </div>
                         <div class="item">
                             <div class="product-item">
-                                <img src="{{ asset('assets/frontend/images/service/6.png') }}" alt="product" />
+                                <img src="{{ asset('assets/frontend/images/service/6.webp') }}" alt="product" />
                             </div>
                             <div class="price">
                                 <div class="price-content">
@@ -526,7 +526,7 @@
                         </div>
                         <div class="item">
                             <div class="product-item">
-                                <img src="{{ asset('assets/frontend/images/service/7.png') }}" alt="product" />
+                                <img src="{{ asset('assets/frontend/images/service/7.webp') }}" alt="product" />
                             </div>
                             <div class="price">
                                 <div class="price-content">
@@ -536,7 +536,7 @@
                         </div>
                         <div class="item">
                             <div class="product-item">
-                                <img src="{{ asset('assets/frontend/images/service/8.png') }}" alt="product" />
+                                <img src="{{ asset('assets/frontend/images/service/8.webp') }}" alt="product" />
                             </div>
                             <div class="price">
                                 <div class="price-content">
@@ -617,7 +617,7 @@
                 <div class="col-xl-6 col-md-12">
                     <div class="workink-pic round">
                         <div class="fancy-box">
-                            <img src="{{ asset('assets/frontend/images/2.png') }}" alt="working" />
+                            <img src="{{ asset('assets/frontend/images/2.webp') }}" alt="working" />
                             <figure class="video-box round-os">
                                 <a data-fancybox data-width="640" data-height="360" class="video-btn"
                                     href="https://youtu.be/1_wPYgXXRns"><i class="fas fa-play"></i></a>
@@ -648,7 +648,7 @@
                             <div class="item">
                                 <div class="testimonial-slider">
                                     <div class="testimonial-pic d-flex">
-                                        <img src="{{ asset('assets/frontend/img/testimonials/1.png') }}"
+                                        <img src="{{ asset('assets/frontend/img/testimonials/1.webp') }}"
                                             alt="" />
                                         <a href="#">Happy Customer</a>
                                         <i class="ti-quote-right"></i>
@@ -662,7 +662,7 @@
                             <div class="item">
                                 <div class="testimonial-slider">
                                     <div class="testimonial-pic d-flex">
-                                        <img src="{{ asset('assets/frontend/img/testimonials/2.png') }}"
+                                        <img src="{{ asset('assets/frontend/img/testimonials/2.webp') }}"
                                             alt="" />
                                         <a href="#">Happy Customer</a>
                                         <i class="ti-quote-right"></i>
@@ -676,7 +676,7 @@
                             <div class="item">
                                 <div class="testimonial-slider">
                                     <div class="testimonial-pic d-flex">
-                                        <img src="{{ asset('assets/frontend/img/testimonials/3.png') }}"
+                                        <img src="{{ asset('assets/frontend/img/testimonials/3.webp') }}"
                                             alt="" />
                                         <a href="#">Happy Customer</a>
                                         <i class="ti-quote-right"></i>
@@ -690,7 +690,7 @@
                             <div class="item">
                                 <div class="testimonial-slider">
                                     <div class="testimonial-pic d-flex">
-                                        <img src="{{ asset('assets/frontend/img/testimonials/4.png') }}"
+                                        <img src="{{ asset('assets/frontend/img/testimonials/4.webp') }}"
                                             alt="" />
                                         <a href="#">Happy Customer</a>
                                         <i class="ti-quote-right"></i>
@@ -704,7 +704,7 @@
                             <div class="item">
                                 <div class="testimonial-slider">
                                     <div class="testimonial-pic d-flex">
-                                        <img src="{{ asset('assets/frontend/img/testimonials/5.png') }}"
+                                        <img src="{{ asset('assets/frontend/img/testimonials/5.webp') }}"
                                             alt="" />
                                         <a href="#">Happy Customer</a>
                                         <i class="ti-quote-right"></i>
@@ -718,7 +718,7 @@
                             <div class="item">
                                 <div class="testimonial-slider">
                                     <div class="testimonial-pic d-flex">
-                                        <img src="{{ asset('assets/frontend/img/testimonials/6.png') }}"
+                                        <img src="{{ asset('assets/frontend/img/testimonials/6.webp') }}"
                                             alt="" />
                                         <a href="#">Happy Customer</a>
                                         <i class="ti-quote-right"></i>
@@ -752,27 +752,27 @@
                     <div class="owl-carousel slider-3">
                         <div class="item">
                             <div class="client-logo">
-                                <img src="{{ asset('assets/frontend/images/brand/1.png') }}" alt="client" />
+                                <img src="{{ asset('assets/frontend/images/brand/1.webp') }}" alt="client" />
                             </div>
                         </div>
                         <div class="item">
                             <div class="client-logo">
-                                <img src="{{ asset('assets/frontend/images/brand/2.png') }}" alt="client" />
+                                <img src="{{ asset('assets/frontend/images/brand/2.webp') }}" alt="client" />
                             </div>
                         </div>
                         <div class="item">
                             <div class="client-logo">
-                                <img src="{{ asset('assets/frontend/images/brand/3.png') }}" alt="client" />
+                                <img src="{{ asset('assets/frontend/images/brand/3.webp') }}" alt="client" />
                             </div>
                         </div>
                         <div class="item">
                             <div class="client-logo">
-                                <img src="{{ asset('assets/frontend/images/brand/4.png') }}" alt="client" />
+                                <img src="{{ asset('assets/frontend/images/brand/4.webp') }}" alt="client" />
                             </div>
                         </div>
                         <div class="item">
                             <div class="client-logo">
-                                <img src="{{ asset('assets/frontend/images/brand/5.png') }}" alt="client" />
+                                <img src="{{ asset('assets/frontend/images/brand/5.webp') }}" alt="client" />
                             </div>
                         </div>
                     </div>

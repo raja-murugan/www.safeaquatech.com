@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Best Water Softener for Your Hard Water Issues</title>
-    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.png') }}" />
+    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
 
     <meta name="description" content=" Experience the difference with our advanced water softener technology. Say goodbye to hard water problems with our effective water softener solutions.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.safeaquatech.com/">
     <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with us.">
     <meta property="og:description" content=" Experience the difference with our advanced water softener technology. Say goodbye to hard water problems with our effective water softener solutions.">
-    <meta property="og:image" content="https://www.safeaquatech.com/assets/images/banner/banner2.jpg">
+    <meta property="og:image" content="https://www.safeaquatech.com/assets/images/banner/banner2.webp">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/fontawesome.min.css') }}" />
@@ -45,7 +45,7 @@
     <!-- Preloader -->
     {{-- <div id="preloader">
         <div id="status">
-            <img src="{{ asset('assets/frontend/images/favlogo.png') }}" alt="perloader" />
+            <img src="{{ asset('assets/frontend/images/favlogo.webp') }}" alt="perloader" />
         </div>
     </div> --}}
 
@@ -79,7 +79,7 @@
         <nav class="navbar navbar-expand-lg top-menu">
             <div class="container-fluid">
                 <div class="logo">
-                    <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.png') }}" alt="logo" style="width: 200px;" /></a>
+                    <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.webp') }}" alt="logo" style="width: 200px;" /></a>
                 </div>
                 <div class="collapse main-nav navbar-collapse" id="navbarSupportedContent-333">
                     <ul class="navbar-nav ml-auto">
@@ -150,7 +150,7 @@
                 </div>
                 <div class="col-sm-12 blog-single-item text-center">
                     <div class="blog-pic">
-                        <img src="{{ asset('assets/frontend/img/water-softener/2.jpg') }}" style="width: 500px;" alt="blog" class="">
+                        <img src="{{ asset('assets/frontend/img/water-softener/2.webp') }}" style="width: 500px;" alt="blog" class="">
                     </div>
                 </div>
             </div>
@@ -189,7 +189,7 @@
                 <div class="col-5 text-center blog-single-item">
                     <div class="blog-pic">
                         <picture>
-                            <img src="{{ asset('assets/frontend/img/water-softener/4.jpg') }}" style="width: 250px;" alt="blog" class="">
+                            <img src="{{ asset('assets/frontend/img/water-softener/4.webp') }}" style="width: 250px;" alt="blog" class="">
                         </picture>
 
                     </div>
