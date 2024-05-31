@@ -33,10 +33,6 @@ Route::get('/service', function () {
     return view('pages.frontend.service');
 })->name('service');
 
-Route::get('/blog-details', function () {
-    return view('pages.frontend.blog-details');
-})->name('blog-details');
-
 Route::get('/blog', function () {
     return view('pages.frontend.blog');
 })->name('blog');

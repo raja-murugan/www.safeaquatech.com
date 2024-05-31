@@ -8,11 +8,13 @@
     <title>Water filter for home, Get Clean & Pure Water with Our Water filters</title>
     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
 
-    <meta name="description" content="Discover the perfect water purifier for your home with our expert guidance. Explore top-notch Water Purifiers tailored to your needs.">
+    <meta name="description"
+        content="Discover the perfect water purifier for your home with our expert guidance. Explore top-notch Water Purifiers tailored to your needs.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.safeaquatech.com/">
     <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers. ">
-    <meta property="og:description" content="Discover the perfect water purifier for your home with our expert guidance. Explore top-notch Water Purifiers tailored to your needs.">
+    <meta property="og:description"
+        content="Discover the perfect water purifier for your home with our expert guidance. Explore top-notch Water Purifiers tailored to your needs.">
     <meta property="og:image" content="https://www.safeaquatech.com/assets/images/banner/banner2.webp">
 
     <!-- Font Awesome -->
@@ -59,9 +61,12 @@
                         <a href="#">Mannarpuram, Tiruchirapalli, Tamil Nadu</a>
                     </div>
                     <div class="head-social-icon ml-auto">
-                        <a href="https://www.facebook.com/safeaquatech.tpj" target="_blank"> <i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.instagram.com/safeaquatech.tpj" target="_blank"><i class="fab fa-instagram"></i></a>
-                            <a href="https://www.youtube.com/@safeaquatech_tpj" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/safeaquatech.tpj" target="_blank"> <i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/safeaquatech.tpj" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@safeaquatech_tpj" target="_blank"><i
+                                class="fab fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
@@ -71,27 +76,34 @@
         <nav class="navbar navbar-expand-lg top-menu">
             <div class="container-fluid">
                 <div class="logo">
-                    <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.webp') }}" alt="logo" style="width: 200px;" /></a>
+                    <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.webp') }}"
+                            alt="logo" style="width: 200px;" /></a>
                 </div>
                 <div class="collapse main-nav navbar-collapse" id="navbarSupportedContent-333">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link {{ Route::is('index') ? 'active' : '' }}" href="{{ route('index') }}">Home</a>
+                            <a class="nav-link {{ Route::is('index') ? 'active' : '' }}"
+                                href="{{ route('index') }}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ Route::is('about') ? 'active' : '' }}" href="{{ route('about') }}">About</a>
+                            <a class="nav-link {{ Route::is('about') ? 'active' : '' }}"
+                                href="{{ route('about') }}">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ Route::is('service') ? 'active' : '' }}" href="{{ route('service') }}">Services</a>
+                            <a class="nav-link {{ Route::is('service') ? 'active' : '' }}"
+                                href="{{ route('service') }}">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ Route::is('product') ? 'active' : '' }}" href="{{ route('product') }}">Products</a>
+                            <a class="nav-link {{ Route::is('product') ? 'active' : '' }}"
+                                href="{{ route('product') }}">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ Route::is('blog') ? 'active' : '' }}" href="{{ route('blog') }}">Blog</a>
+                            <a class="nav-link {{ Route::is('blog') ? 'active' : '' }}"
+                                href="{{ route('blog') }}">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ Route::is('contact') ? 'active' : '' }}" href="{{ route('contact') }}">Contact</a>
+                            <a class="nav-link {{ Route::is('contact') ? 'active' : '' }}"
+                                href="{{ route('contact') }}">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -102,7 +114,9 @@
                 <div class="mobile-btn bttn">
                     <a href="#"><i class="fas fa-envelope-open-text"></i></a>
                 </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"><i class="ti-menu"></i></span>
                 </button>
             </div>
@@ -117,7 +131,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="page-title text-center">
-                            <h2>Water Filter</h2>
+                            <h2>Water Filter for Home</h2>
                             <a href="{{ route('index') }}">Home</a>
                             <span>|</span>
                             <a href="javascript:void(0)">Water Filter for Home</a>
@@ -132,13 +146,17 @@
     <!-- Blog Item Start -->
     <section class="blog-single item-section">
         <div class="container">
-            <h2>Importance of Water Filter for your Home</h2>
+            <h4>Importance of Water Filter for your Home</h4>
             <div class="row">
                 <div class=" col-12 pt-3">
                     <p>
-                        Water is the essence of life, but not all water sources are created equal. In today's world, where water quality concerns are becoming more prominent, the need for reliable and efficient water filters for home is paramount.
-                        Safe Aqua Tech, a trusted name in water filtration solutions, understands the significance of clean and safe drinking water.
-                        In this article, we'll explore the importance of water filters for home and how Safe Aqua Tech is leading the way in ensuring the health and well-being of your family.
+                        Water is the essence of life, but not all water sources are created equal. In today's world,
+                        where water quality concerns are becoming more prominent, the need for reliable and efficient
+                        water filters for home is paramount.
+                        Safe Aqua Tech, a trusted name in water filtration solutions, understands the significance of
+                        clean and safe drinking water.
+                        In this article, we'll explore the importance of water filters for home and how <span><a href="{{ route('index') }}">Safe Aqua Tech</a></span>
+                        is leading the way in ensuring the health and well-being of your family.
                     </p>
                 </div>
             </div>
@@ -151,35 +169,42 @@
 
             <h5 class="pt-3">Commitment to Clean Water :</h5>
             <p>
-                Safe Aqua Tech has dedicated itself to providing innovative and effective water filtration systems for households.
-                Their commitment to clean water goes beyond just removing impurities; it's about creating a comprehensive solution to ensure your water is of the highest quality.
+                Safe Aqua Tech has dedicated itself to providing innovative and effective water filtration systems for
+                households.
+                Their commitment to clean water goes beyond just removing impurities; it's about creating a
+                comprehensive solution to ensure your water is of the highest quality.
             </p>
 
             <h5 class="pt-3">Removal of Contaminants :</h5>
             <p>
                 Water filters for home are designed to eliminate a wide range of contaminants found in tap water.
-                These contaminants may include bacteria, viruses, sediments, heavy metals, chlorine, pesticides,and more.
+                These contaminants may include bacteria, viruses, sediments, heavy metals, chlorine, pesticides,and
+                more.
                 Our advanced filtration technology ensures that your water is free from harmful impurities.
             </p>
 
             <h5 class="pt-3">Enhanced Taste and Odor :</h5>
             <p>
-                Safe Aqua Tech's water filters not only purify your water but also enhance its taste and odor.
-                Our systems remove undesirable elements, ensuring that your water not only looks clean but also tastes and smells fresh.
+                Safe Aqua Tech's <span><a href="{{ route('product') }}">water filters</a></span> not only purify your water but also enhance its taste and odor.
+                Our systems remove undesirable elements, ensuring that your water not only looks clean but also tastes
+                and smells fresh.
                 This can encourage your family to drink more water, promoting overall health and well-being.
             </p>
 
             <h5 class="pt-3">Health Benefits :</h5>
             <p>
                 Clean and safe drinking water is essential for maintaining good health, and we understands this well.
-                By removing harmful contaminants, our water filters reduce the risk of waterborne illnesses and contribute to long-term health benefits.
+                By removing harmful contaminants, our water filters reduce the risk of waterborne illnesses and
+                contribute to long-term health benefits.
                 Protecting your family's health is Safe Aqua Tech's top priority.
             </p>
 
             <h5 class="pt-3">Cost-Efficiency :</h5>
             <p>
-                Investing in our water filter for your home might seem like an initial expense, but it can lead to long-term cost savings.
-                Say goodbye to the recurring costs of bottled water and healthcare expenses related to waterborne illnesses.
+                Investing in our water filter for your home might seem like an initial expense, but it can lead to
+                long-term cost savings.
+                Say goodbye to the recurring costs of bottled water and healthcare expenses related to waterborne
+                illnesses.
                 Safe Aqua Tech offers a cost-effective solution for safeguarding your family's well-being.
             </p>
 
@@ -192,7 +217,10 @@
             <div class="pt-3 pb-3">
                 Safe Aqua Tech stands as a beacon of trust and reliability in the world of water filtration.
                 Their commitment to providing clean and safe drinking water for your home is unmatched.
-                By choosing Safe Aqua Tech's water filters, you not only ensure the purity of your water but also contribute to a healthier and more sustainable future for your family and the planet. Embrace our advanced filtration solutions and experience the peace of mind that comes with having safe, clean water right at home.
+                By choosing Safe Aqua Tech's water filters, you not only ensure the purity of your water but also
+                contribute to a healthier and more sustainable future for your family and the planet. Embrace our
+                <span><a href="{{ route('water-purifier') }}">advanced filtration</a></span> solutions and experience the peace of mind that comes with having safe, clean water
+                right at home.
                 Your family's health is our priority, and we deliver on our promise.
             </div>
         </div>
