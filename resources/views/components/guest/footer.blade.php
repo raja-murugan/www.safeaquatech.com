@@ -80,7 +80,7 @@
 
     <!-- Back to Top Start -->
     <div id="toTop" class="back-to-top text-right">
-        <img src="{{ asset('assets/frontend/img/water-bottle.png') }}" alt="" />
+        <img src="{{ asset('assets/frontend/img/water-bottle.webp') }}" alt="" />
     </div>
     <!-- Back to Top End-->
 

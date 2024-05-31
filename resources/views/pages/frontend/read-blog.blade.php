@@ -18,7 +18,7 @@
     <!-- Page Title -->
     <title>{{ $data->title }}</title>
 
-    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.png') }}" />
+    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/fontawesome.min.css') }}" />
@@ -71,7 +71,7 @@
     <!-- Preloader -->
     {{-- <div id="preloader">
         <div id="status">
-            <img src="{{ asset('assets/frontend/images/favlogo.png') }}" alt="perloader" />
+            <img src="{{ asset('assets/frontend/images/favlogo.webp') }}" alt="perloader" />
         </div>
     </div> --}}
 
@@ -105,7 +105,7 @@
         <nav class="navbar navbar-expand-lg top-menu">
             <div class="container-fluid">
                 <div class="logo">
-                    <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.png') }}"
+                    <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.webp') }}"
                             alt="logo" style="width: 200px;" /></a>
                 </div>
                 <div class="collapse main-nav navbar-collapse" id="navbarSupportedContent-333">
@@ -318,7 +318,7 @@
 
     <!-- Back to Top Start -->
     <div id="toTop" class="back-to-top text-right">
-        <img src="{{ asset('assets/frontend/img/water-bottle.png') }}" alt="" />
+        <img src="{{ asset('assets/frontend/img/water-bottle.webp') }}" alt="" />
     </div>
     <!-- Back to Top End-->
 

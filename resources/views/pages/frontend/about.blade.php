@@ -139,7 +139,7 @@
             <div class="row align-items-center">
                 <div class="col-xl-6 col-md-12">
                     <div class="about-pic">
-                        <img src="{{ asset('assets/frontend/images/about/1.jpg') }}" alt="About" class="w-100" />
+                        <img src="{{ asset('assets/frontend/images/about/1.webp') }}" alt="About" class="w-100" />
                     </div>
                 </div>
                 <div class="col-xl-6 col-md-12">
@@ -567,27 +567,27 @@
                     <div class="owl-carousel slider-3">
                         <div class="item">
                             <div class="client-logo">
-                                <img src="{{ asset('assets/frontend/images/brand/1.png') }}" alt="client" />
+                                <img src="{{ asset('assets/frontend/images/brand/1.webp') }}" alt="client" />
                             </div>
                         </div>
                         <div class="item">
                             <div class="client-logo">
-                                <img src="{{ asset('assets/frontend/images/brand/2.png') }}" alt="client" />
+                                <img src="{{ asset('assets/frontend/images/brand/2.webp') }}" alt="client" />
                             </div>
                         </div>
                         <div class="item">
                             <div class="client-logo">
-                                <img src="{{ asset('assets/frontend/images/brand/3.png') }}" alt="client" />
+                                <img src="{{ asset('assets/frontend/images/brand/3.webp') }}" alt="client" />
                             </div>
                         </div>
                         <div class="item">
                             <div class="client-logo">
-                                <img src="{{ asset('assets/frontend/images/brand/4.png') }}" alt="client" />
+                                <img src="{{ asset('assets/frontend/images/brand/4.webp') }}" alt="client" />
                             </div>
                         </div>
                         <div class="item">
                             <div class="client-logo">
-                                <img src="{{ asset('assets/frontend/images/brand/5.png') }}" alt="client" />
+                                <img src="{{ asset('assets/frontend/images/brand/5.webp') }}" alt="client" />
                             </div>
                         </div>
                     </div>
