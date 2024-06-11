@@ -2,21 +2,24 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>
         Safe Aqua Tech | Water Purifier, Commercial Water Plant, Water Softener Dealers, Suppliers in Trichy | Water
         purification company in Tiruchirappalli, Tamil Nadu
     </title>
-    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
 
-    <meta name="description" content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.safeaquatech.com/">
-    <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers. ">
-    <meta property="og:description" content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
-    <meta property="og:image" content="https://www.safeaquatech.com/assets/images/banner/banner2.webp">
+     <!-- Meta Data -->
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta http-equiv="content-type" content="text/html; charset=utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="author" content="Zwork Technology">
+     <meta name="description" content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
+     <meta name="keywords" content="">
+     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
+     <meta property="og:type" content="website">
+     <meta property="og:url" content="https://www.safeaquatech.com/">
+     <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers.">
+     <meta property="og:description" content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
+     <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/images/banner/banner2.webp">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/fontawesome.min.css') }}" />

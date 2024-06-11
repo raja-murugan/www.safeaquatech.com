@@ -2,18 +2,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>RO installation near me | Expert Solutions for Clean & Pure Water</title>
-    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
 
-    <meta name="description" content="Discover the perfect water purifier for your home with our expert guidance. Explore top-notch Water Purifiers tailored to your needs.">
+    <!-- Meta Data -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Zwork Technology">
+    <meta name="description"
+        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
+    <meta name="keywords" content="">
+    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.safeaquatech.com/">
-    <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers. ">
-    <meta property="og:description" content="Discover the perfect water purifier for your home with our expert guidance. Explore top-notch Water Purifiers tailored to your needs.">
-    <meta property="og:image" content="https://www.safeaquatech.com/assets/images/banner/banner2.webp">
+    <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers.">
+    <meta property="og:description"
+        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
+    <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/images/banner/banner2.webp">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/fontawesome.min.css') }}" />
@@ -59,9 +64,12 @@
                         <a href="#">Mannarpuram, Tiruchirapalli, Tamil Nadu</a>
                     </div>
                     <div class="head-social-icon ml-auto">
-                        <a href="https://www.facebook.com/safeaquatech.tpj" target="_blank"> <i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.instagram.com/safeaquatech.tpj" target="_blank"><i class="fab fa-instagram"></i></a>
-                            <a href="https://www.youtube.com/@safeaquatech_tpj" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/safeaquatech.tpj" target="_blank"> <i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/safeaquatech.tpj" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@safeaquatech_tpj" target="_blank"><i
+                                class="fab fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
@@ -71,27 +79,34 @@
         <nav class="navbar navbar-expand-lg top-menu">
             <div class="container-fluid">
                 <div class="logo">
-                    <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.webp') }}" alt="logo" style="width: 200px;" /></a>
+                    <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.webp') }}"
+                            alt="logo" style="width: 200px;" /></a>
                 </div>
                 <div class="collapse main-nav navbar-collapse" id="navbarSupportedContent-333">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link {{ Route::is('index') ? 'active' : '' }}" href="{{ route('index') }}">Home</a>
+                            <a class="nav-link {{ Route::is('index') ? 'active' : '' }}"
+                                href="{{ route('index') }}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ Route::is('about') ? 'active' : '' }}" href="{{ route('about') }}">About</a>
+                            <a class="nav-link {{ Route::is('about') ? 'active' : '' }}"
+                                href="{{ route('about') }}">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ Route::is('service') ? 'active' : '' }}" href="{{ route('service') }}">Services</a>
+                            <a class="nav-link {{ Route::is('service') ? 'active' : '' }}"
+                                href="{{ route('service') }}">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ Route::is('product') ? 'active' : '' }}" href="{{ route('product') }}">Products</a>
+                            <a class="nav-link {{ Route::is('product') ? 'active' : '' }}"
+                                href="{{ route('product') }}">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ Route::is('blog') ? 'active' : '' }}" href="{{ route('blog') }}">Blog</a>
+                            <a class="nav-link {{ Route::is('blog') ? 'active' : '' }}"
+                                href="{{ route('blog') }}">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ Route::is('contact') ? 'active' : '' }}" href="{{ route('contact') }}">Contact</a>
+                            <a class="nav-link {{ Route::is('contact') ? 'active' : '' }}"
+                                href="{{ route('contact') }}">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -102,7 +117,9 @@
                 <div class="mobile-btn bttn">
                     <a href="#"><i class="fas fa-envelope-open-text"></i></a>
                 </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"><i class="ti-menu"></i></span>
                 </button>
             </div>
@@ -134,34 +151,44 @@
         <div class="container">
             <h4 class="text-left">Our Experts Experience in Words :</h4>
             <p>
-                At Safe Aqua Tech, our team is dedicated to providing excellence in the installation of <span><a href="{{ route('water-purifiers') }}">water purifiers</a></span> and service.
-                With our expertise and commitment to customer satisfaction, you can trust us to deliver the highest quality solutions for your water purification needs.
+                At Safe Aqua Tech, our team is dedicated to providing excellence in the installation of <span><a
+                        href="{{ route('water-purifiers') }}">water purifiers</a></span> and service.
+                With our expertise and commitment to customer satisfaction, you can trust us to deliver the highest
+                quality solutions for your water purification needs.
             </p>
 
             <div class="blog-pic text-center pb-5">
                 <picture>
-                    <img src="{{ asset('assets/frontend/img/ro-installation/1.webp') }}" alt="blog" class="">
+                    <img src="{{ asset('assets/frontend/img/ro-installation/1.webp') }}" alt="blog"
+                        class="">
                 </picture>
             </div>
             <ul>
                 <p class="pl-5">
-                    <b>1.</b> Our installation process is carried out by a team of experienced professionals who have a deep understanding of water purification technology.
-                    They will ensure that your water purifier is installed correctly and efficiently, minimizing any disruptions to your daily routine.
+                    <b>1.</b> Our installation process is carried out by a team of experienced professionals who have a
+                    deep understanding of water purification technology.
+                    They will ensure that your water purifier is installed correctly and efficiently, minimizing any
+                    disruptions to your daily routine.
                 </p>
                 <br>
                 <p class="pl-5">
-                    <b>2.</b> In addition to installation, our team is always ready to provide prompt and <span><a href="{{ route('service') }}">reliable service</a></span> for your water purifier.
-                    Whether it's routine maintenance, filter replacement, or troubleshooting, we will be there to address any concerns and keep your water purifier functioning at its best.
+                    <b>2.</b> In addition to installation, our team is always ready to provide prompt and <span><a
+                            href="{{ route('service') }}">reliable service</a></span> for your water purifier.
+                    Whether it's routine maintenance, filter replacement, or troubleshooting, we will be there to
+                    address any concerns and keep your water purifier functioning at its best.
                 </p>
                 <br>
                 <p class="pl-5">
-                    <b>3.</b> We pride ourselves on offering personalized service and strive to exceed your expectations.
-                    Our team is trained to provide clear and helpful explanations about your water purifier, ensuring that you have a comprehensive understanding of its features and operation.
+                    <b>3.</b> We pride ourselves on offering personalized service and strive to exceed your
+                    expectations.
+                    Our team is trained to provide clear and helpful explanations about your water purifier, ensuring
+                    that you have a comprehensive understanding of its features and operation.
                 </p>
                 <br>
                 <p class="pl-5 pb-5">
                     <b>4.</b> We believe in the importance of clean and safe drinking water for every household.
-                    That's why we are committed to delivering excellence in water purifier installation and service, so you can enjoy peace of mind knowing that your water is purified to the highest standards.
+                    That's why we are committed to delivering excellence in water purifier installation and service, so
+                    you can enjoy peace of mind knowing that your water is purified to the highest standards.
                 </p>
             </ul>
         </div>

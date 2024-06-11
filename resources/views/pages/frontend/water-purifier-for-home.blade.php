@@ -2,20 +2,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Water Purifier for Home | We Satisfy Your Water Purification Needs</title>
-    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
 
+    <!-- Meta Data -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Zwork Technology">
     <meta name="description"
-        content="Discover the perfect water purifier for your home with our expert guidance. Explore top-notch Water Purifiers tailored to your needs.">
+        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
+    <meta name="keywords" content="">
+    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.safeaquatech.com/">
-    <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers. ">
+    <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers.">
     <meta property="og:description"
-        content="Discover the perfect water purifier for your home with our expert guidance. Explore top-notch Water Purifiers tailored to your needs.">
-    <meta property="og:image" content="https://www.safeaquatech.com/assets/images/banner/banner2.webp">
+        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
+    <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/images/banner/banner2.webp">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/fontawesome.min.css') }}" />
@@ -152,7 +155,8 @@
                     <p>
                         Clean and safe drinking water is a cornerstone of a healthy life. In an age where water quality
                         is increasingly a concern, having a reliable water purifier for home is essential.
-                        At <span><a href="{{ route('index') }}">Safe Aqua Tech</a></span>, we understand the importance of ensuring your family has access to safe and
+                        At <span><a href="{{ route('index') }}">Safe Aqua Tech</a></span>, we understand the
+                        importance of ensuring your family has access to safe and
                         pure drinking water.
                         In this article, we'll delve into the significance of water purifiers for home and how we, Safe
                         Aqua Tech, go the extra mile to provide installation and service for your dream water purifiers.
@@ -185,7 +189,8 @@
             <p>
                 We use cutting-edge water purification technology to effectively eliminate a wide range of contaminants
                 that can be found in tap water.
-                <span><a href="{{ route('product') }}">Our water purifiers</a></span> are designed to remove impurities such as bacteria, viruses, sediments, heavy
+                <span><a href="{{ route('product') }}">Our water purifiers</a></span> are designed to remove
+                impurities such as bacteria, viruses, sediments, heavy
                 metals, chlorine, pesticides, and more.
                 With Safe Aqua Tech, you can be confident that your water is free from these harmful substances.
             </p>
@@ -232,7 +237,8 @@
                 We take pride in offering installation and service to make your dream of owning a water purifier a
                 hassle-free reality. With Safe Aqua Tech, you can enjoy the peace of mind that comes with having safe,
                 clean water in your home, along with exceptional service and support.
-                <span><a href="{{ route('contact') }}">Choose us</a></span> for your dream water purifier and experience a healthier and happier life.
+                <span><a href="{{ route('contact') }}">Choose us</a></span> for your dream water purifier and
+                experience a healthier and happier life.
             </div>
         </div>
     </section>

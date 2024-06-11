@@ -2,20 +2,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Water filter for home, Get Clean & Pure Water with Our Water filters</title>
-    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
 
+    <!-- Meta Data -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Zwork Technology">
     <meta name="description"
-        content="Discover the perfect water purifier for your home with our expert guidance. Explore top-notch Water Purifiers tailored to your needs.">
+        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
+    <meta name="keywords" content="">
+    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.safeaquatech.com/">
-    <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers. ">
+    <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers.">
     <meta property="og:description"
-        content="Discover the perfect water purifier for your home with our expert guidance. Explore top-notch Water Purifiers tailored to your needs.">
-    <meta property="og:image" content="https://www.safeaquatech.com/assets/images/banner/banner2.webp">
+        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
+    <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/images/banner/banner2.webp">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/fontawesome.min.css') }}" />
@@ -155,7 +158,8 @@
                         water filters for home is paramount.
                         Safe Aqua Tech, a trusted name in water filtration solutions, understands the significance of
                         clean and safe drinking water.
-                        In this article, we'll explore the importance of water filters for home and how <span><a href="{{ route('index') }}">Safe Aqua Tech</a></span>
+                        In this article, we'll explore the importance of water filters for home and how <span><a
+                                href="{{ route('index') }}">Safe Aqua Tech</a></span>
                         is leading the way in ensuring the health and well-being of your family.
                     </p>
                 </div>
@@ -185,7 +189,8 @@
 
             <h5 class="pt-3">Enhanced Taste and Odor :</h5>
             <p>
-                Safe Aqua Tech's <span><a href="{{ route('product') }}">water filters</a></span> not only purify your water but also enhance its taste and odor.
+                Safe Aqua Tech's <span><a href="{{ route('product') }}">water filters</a></span> not only purify your
+                water but also enhance its taste and odor.
                 Our systems remove undesirable elements, ensuring that your water not only looks clean but also tastes
                 and smells fresh.
                 This can encourage your family to drink more water, promoting overall health and well-being.
@@ -219,7 +224,8 @@
                 Their commitment to providing clean and safe drinking water for your home is unmatched.
                 By choosing Safe Aqua Tech's water filters, you not only ensure the purity of your water but also
                 contribute to a healthier and more sustainable future for your family and the planet. Embrace our
-                <span><a href="{{ route('water-purifier') }}">advanced filtration</a></span> solutions and experience the peace of mind that comes with having safe, clean water
+                <span><a href="{{ route('water-purifier') }}">advanced filtration</a></span> solutions and experience
+                the peace of mind that comes with having safe, clean water
                 right at home.
                 Your family's health is our priority, and we deliver on our promise.
             </div>

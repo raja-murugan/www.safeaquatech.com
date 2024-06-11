@@ -2,20 +2,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title> RO Water Plant Sales & Maintenance Services</title>
-    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
 
+    <!-- Meta Data -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Zwork Technology">
     <meta name="description"
-        content=" Discover cutting-edge RO water plant technology for unparalleled water purification. Trust our RO plant solutions for clean, safe water. Upgrade today!">
+        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
+    <meta name="keywords" content="">
+    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.safeaquatech.com/">
-    <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with us.">
+    <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers.">
     <meta property="og:description"
-        content=" Discover cutting-edge RO water plant technology for unparalleled water purification. Trust our RO plant solutions for clean, safe water. Upgrade today!">
-    <meta property="og:image" content="https://www.safeaquatech.com/assets/images/banner/banner2.webp">
+        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
+    <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/images/banner/banner2.webp">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/fontawesome.min.css') }}" />
@@ -158,7 +161,8 @@
             <div class="row">
                 <div class="col-12 pt-3">
                     <p>
-                        At Safe Aqua Tech, we are dedicated to providing <span><a href="{{ route('service') }}">cutting-edge solutions</a></span> for clean and safe
+                        At Safe Aqua Tech, we are dedicated to providing <span><a
+                                href="{{ route('service') }}">cutting-edge solutions</a></span> for clean and safe
                         water.
                         Our expertise lies in RO water plant technology, ensuring that you have access to the purest
                         form of water for your residential or commercial needs.
@@ -190,8 +194,10 @@
                     <p><b>3. Custom Solutions :</b> We understand that every water purification need is unique. That's
                         why we offer customizable solutions tailored to your specific requirements, whether it's for a
                         small household or a large industrial facility.</p>
-                    <p><b>4. Expert Support :</b> Our team of experienced technicians is dedicated to providing <span><a href="{{ route('ro-installation-near-me') }}">expert
-                        support</a></span> every step of the way. From installation to maintenance, we're here to ensure that your
+                    <p><b>4. Expert Support :</b> Our team of experienced technicians is dedicated to providing <span><a
+                                href="{{ route('ro-installation-near-me') }}">expert
+                                support</a></span> every step of the way. From installation to maintenance, we're here
+                        to ensure that your
                         RO water plant operates seamlessly.</p>
                 </div>
             </div>
@@ -224,7 +230,8 @@
             <p>
                 Experience the difference that our RO water plant technology can make in ensuring the purity and safety
                 of your water supply.
-                <span><a href="{{ route('contact') }}">Get in touch</a></span> with Safe Aqua Tech today to learn more about our services and how we can meet your water
+                <span><a href="{{ route('contact') }}">Get in touch</a></span> with Safe Aqua Tech today to learn more
+                about our services and how we can meet your water
                 purification needs.
             </p>
 

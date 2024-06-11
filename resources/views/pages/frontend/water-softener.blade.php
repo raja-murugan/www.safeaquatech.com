@@ -2,20 +2,24 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Best Water Softener for Your Hard Water Issues</title>
-    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
 
+    <!-- Meta Data -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Zwork Technology">
     <meta name="description"
-        content=" Experience the difference with our advanced water softener technology. Say goodbye to hard water problems with our effective water softener solutions.">
+        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
+    <meta name="keywords" content="">
+    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.safeaquatech.com/">
-    <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with us.">
+    <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers.">
     <meta property="og:description"
-        content=" Experience the difference with our advanced water softener technology. Say goodbye to hard water problems with our effective water softener solutions.">
-    <meta property="og:image" content="https://www.safeaquatech.com/assets/images/banner/banner2.webp">
+        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
+    <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/images/banner/banner2.webp">
+
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/fontawesome.min.css') }}" />
@@ -249,7 +253,8 @@
             <p class="pb-5">
                 Ready to experience the benefits of softener, healthier water? Get in touch with us today to learn more
                 about our water softener solutions and find the perfect fit for your home or business.
-                <span><a href="{{ route('soft-water-conditioner') }}">Say goodbye to hard water woes</a></span> and hello to a new era of water quality excellence with Safe Aqua Tech.
+                <span><a href="{{ route('soft-water-conditioner') }}">Say goodbye to hard water woes</a></span> and
+                hello to a new era of water quality excellence with Safe Aqua Tech.
             </p>
         </div>
     </section>
