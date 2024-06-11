@@ -13,7 +13,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <meta name="author" content="Zwork Technology">
      <meta name="description" content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
-     <meta name="keywords" content="">
+     <meta name="keywords" content="water softener, water softener for water tank, home water softener, water softener for house, water softener installation near me, water purifier for home, smart water purifier, house water purification system, how to choose water purifier for home, soft water conditioner, water conditioner for home, ro water plant, ro plant, reverse osmosis plant, water plant company near me, water purifier, water purifier machine, tap water purifier, near water purifier shop, RO installation near me, reverse osmosis filter for home, ro filter for home, water filter for hard water, water filter for home, iron removal filter, home filter system, drinking water filter near me, best water purifiers for home, uv water purifiers, water purifiers">
      <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
      <meta property="og:type" content="website">
      <meta property="og:url" content="https://www.safeaquatech.com/">

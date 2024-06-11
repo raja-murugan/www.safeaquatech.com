@@ -11,7 +11,7 @@
     <meta name="author" content="Zwork Technology">
     <meta name="description"
         content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="RO installation near me, reverse osmosis filter for home, ro filter for home">
     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.safeaquatech.com/">

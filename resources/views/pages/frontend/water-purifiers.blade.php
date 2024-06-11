@@ -11,7 +11,7 @@
     <meta name="author" content="Zwork Technology">
     <meta name="description"
         content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="best water purifiers for home, uv water purifiers, water purifiers">
     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.safeaquatech.com/">
@@ -20,7 +20,7 @@
         content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
     <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/images/banner/banner2.webp">
 
-    
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/fontawesome.min.css') }}" />
     <!-- Themify Icon -->
