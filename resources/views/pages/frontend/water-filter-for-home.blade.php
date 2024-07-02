@@ -9,16 +9,15 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Zwork Technology">
-    <meta name="description"
-        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
-    <meta name="keywords" content="water filter for hard water, water filter for home, iron removal filter, home filter system, drinking water filter near me ">
+    <meta name="description" content="Water filter for home: Enhance your family's health with a reliable water filter for home, ensuring pure and safe drinking water for everyday use.">
+    <meta name="keywords" content="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, water filter for hard water, water filter for home, iron removal filter, home filter system, drinking water filter near me">
     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.safeaquatech.com/">
-    <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers.">
+    <meta property="og:url" content="https://safeaquatech.com/water-filter-for-home">
+    <meta property="og:title" content="Water Filter for Home: Quality Filters for Superior Hydration">
     <meta property="og:description"
-        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
-    <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/images/banner/banner2.webp">
+        content="Water filter for home brings purity to every drop, ensuring health and safety for your loved ones, making it an indispensable appliance in modern households.">
+    <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/img/water-filter/2.webp">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/fontawesome.min.css') }}" />
@@ -80,7 +79,7 @@
             <div class="container-fluid">
                 <div class="logo">
                     <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.webp') }}"
-                            alt="logo" style="width: 200px;" /></a>
+                            alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, water filter for hard water, water filter for home, iron removal filter, home filter system, drinking water filter near me" style="width: 200px;" /></a>
                 </div>
                 <div class="collapse main-nav navbar-collapse" id="navbarSupportedContent-333">
                     <ul class="navbar-nav ml-auto">
@@ -167,7 +166,7 @@
 
             <div class="blog-pic text-center pb-5">
                 <picture>
-                    <img src="{{ asset('assets/frontend/img/water-filter/3.webp') }}" alt="blog" class="">
+                    <img src="{{ asset('assets/frontend/img/water-filter/3.webp') }}" alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, water filter for hard water, water filter for home, iron removal filter, home filter system, drinking water filter near me" class="">
                 </picture>
             </div>
 
@@ -215,7 +214,7 @@
 
             <div class="blog-pic text-center pb-5">
                 <picture>
-                    <img src="{{ asset('assets/frontend/img/water-filter/2.webp') }}" alt="blog" class="">
+                    <img src="{{ asset('assets/frontend/img/water-filter/2.webp') }}" alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, water filter for hard water, water filter for home, iron removal filter, home filter system, drinking water filter near me" class="">
                 </picture>
             </div>
 

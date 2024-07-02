@@ -10,15 +10,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Zwork Technology">
     <meta name="description"
-        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
-    <meta name="keywords" content="water purifier for home, smart water purifier, house water purification system, how to choose water purifier for home">
+        content="Discover the ultimate water purifier for home use, ensuring clean and safe drinking water for you and your family.">
+    <meta name="keywords" content="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, water purifier for home, smart water purifier, house water purification system, how to choose water purifier for home">
     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.safeaquatech.com/">
-    <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers.">
+    <meta property="og:url" content="https://safeaquatech.com/water-purifier-for-home">
+    <meta property="og:title" content="Water Purifier for Home: Say Goodbye to Contaminants">
     <meta property="og:description"
-        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
-    <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/images/banner/banner2.webp">
+        content="Water purifier for home provides an efficient solution to eliminate harmful substances, delivering clean and fresh water daily.">
+    <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/img/water-purifier-for-home/2.webp">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/fontawesome.min.css') }}" />
@@ -80,7 +80,7 @@
             <div class="container-fluid">
                 <div class="logo">
                     <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.webp') }}"
-                            alt="logo" style="width: 200px;" /></a>
+                            alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, water purifier for home, smart water purifier, house water purification system, how to choose water purifier for home" style="width: 200px;" /></a>
                 </div>
                 <div class="collapse main-nav navbar-collapse" id="navbarSupportedContent-333">
                     <ul class="navbar-nav ml-auto">
@@ -165,7 +165,7 @@
             </div>
             <div class="blog-pic text-center pb-5">
                 <picture>
-                    <img src="{{ asset('assets/frontend/img/water-purifier-for-home/1.webp') }}" alt="blog"
+                    <img src="{{ asset('assets/frontend/img/water-purifier-for-home/1.webp') }}" alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, water purifier for home, smart water purifier, house water purification system, how to choose water purifier for home"
                         class="">
                 </picture>
             </div>
@@ -224,7 +224,7 @@
 
             <div class="blog-pic text-center">
                 <picture>
-                    <img src="{{ asset('assets/frontend/img/water-purifier-for-home/2.webp') }}" alt="blog"
+                    <img src="{{ asset('assets/frontend/img/water-purifier-for-home/2.webp') }}" alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, water purifier for home, smart water purifier, house water purification system, how to choose water purifier for home"
                         class="">
                 </picture>
             </div>

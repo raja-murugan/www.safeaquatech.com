@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title> Water Purifier for Home, Commercial and Industrial Use</title>
+    <title> Water Purifier | Quality Assurance for Your Drinking Water Needs!</title>
 
     <!-- Meta Data -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,15 +10,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Zwork Technology">
     <meta name="description"
-        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
-    <meta name="keywords" content="water purifier, water purifier machine, tap water purifier, near water purifier shop">
+        content="To maintain health, invest in a good water purifier. A quality water purifier eliminates contaminants, ensuring pure, safe drinking water.">
+    <meta name="keywords" content="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, water purifier, water purifier machine, tap water purifier, near water purifier shop">
     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.safeaquatech.com/">
-    <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers.">
+    <meta property="og:url" content="https://safeaquatech.com/water-purifier">
+    <meta property="og:title" content="Water Purifier: Your Reliable Partner in Hygiene and Health">
     <meta property="og:description"
-        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
-    <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/images/banner/banner2.webp">
+        content="Installing a high-quality water purifier is essential for clean, healthy hydration, as only a reliable water purifier can guarantee purity.">
+    <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/img/blog-page/1.webp">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/fontawesome.min.css') }}" />
@@ -88,7 +88,7 @@
             <div class="container-fluid">
                 <div class="logo">
                     <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.webp') }}"
-                            alt="logo" style="width: 200px;" /></a>
+                            alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, water purifier, water purifier machine, tap water purifier, near water purifier shop" style="width: 200px;" /></a>
                 </div>
                 <div class="collapse main-nav navbar-collapse" id="navbarSupportedContent-333">
                     <ul class="navbar-nav ml-auto">
@@ -173,7 +173,7 @@
                 </div>
                 <div class="col-sm-12 blog-single-item text-center">
                     <div class="blog-pic">
-                        <img src="{{ asset('assets/frontend/img/blog-page/1.webp') }}" alt="blog"
+                        <img src="{{ asset('assets/frontend/img/blog-page/1.webp') }}" alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, water purifier, water purifier machine, tap water purifier, near water purifier shop"
                             class="">
                     </div>
                 </div>
@@ -182,7 +182,7 @@
             <div class="row">
                 <div class="col-5 blog-single-item">
                     <div class="blog-pic">
-                        <img src="{{ asset('assets/frontend/img/water-purifier/1.webp') }}" alt="blog"
+                        <img src="{{ asset('assets/frontend/img/water-purifier/1.webp') }}" alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, water purifier, water purifier machine, tap water purifier, near water purifier shop"
                             class="">
                     </div>
                 </div>
@@ -224,7 +224,7 @@
                 <div class="col-5 text-center blog-single-item">
                     <div class="blog-pic">
                         <picture>
-                            <img src="{{ asset('assets/frontend/img/water-purifier/2.webp') }}" alt="blog"
+                            <img src="{{ asset('assets/frontend/img/water-purifier/2.webp') }}" alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, water purifier, water purifier machine, tap water purifier, near water purifier shop"
                                 class="">
                         </picture>
 
@@ -235,7 +235,7 @@
             <div class="row">
                 <div class="col-5 blog-single-item">
                     <div class="blog-pic">
-                        <img src="{{ asset('assets/frontend/img/water-purifier/3.webp') }}" alt="blog"
+                        <img src="{{ asset('assets/frontend/img/water-purifier/3.webp') }}" alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, water purifier, water purifier machine, tap water purifier, near water purifier shop"
                             class="">
                     </div>
                 </div>

@@ -10,15 +10,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Zwork Technology">
     <meta name="description"
-        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
+        content="RO water plant: In the alchemy of hydration, an RO water plant extracts impurities, leaving behind liquid gold — clear, crisp, and brimming with vitality.">
     <meta name="keywords" content="ro water plant, ro plant, reverse osmosis plant, water plant company near me">
     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.safeaquatech.com/">
-    <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers.">
+    <meta property="og:url" content="https://safeaquatech.com/ro-water-plant">
+    <meta property="og:title" content="RO water plant: Your partner in pure, refreshing hydration">
     <meta property="og:description"
-        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
-    <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/images/banner/banner2.webp">
+        content="RO water plant is a beacon of health, ensuring that every drop that touches our lips is free from harmful impurities.">
+    <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/img/ro-water-plant/3.webp">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/fontawesome.min.css') }}" />
@@ -88,7 +88,7 @@
             <div class="container-fluid">
                 <div class="logo">
                     <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.webp') }}"
-                            alt="logo" style="width: 200px;" /></a>
+                            alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, ro water plant, ro plant, reverse osmosis plant, water plant company near me" style="width: 200px;" /></a>
                 </div>
                 <div class="collapse main-nav navbar-collapse" id="navbarSupportedContent-333">
                     <ul class="navbar-nav ml-auto">
@@ -171,7 +171,7 @@
                 <div class="col-sm-12 blog-single-item text-center">
                     <div class="blog-pic">
                         <img src="{{ asset('assets/frontend/img/ro-water-plant/1.webp') }}" style="width: 500px;"
-                            alt="blog" class="">
+                            alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, ro water plant, ro plant, reverse osmosis plant, water plant company near me" class="">
                     </div>
                 </div>
             </div>
@@ -179,7 +179,7 @@
             <div class="row">
                 <div class="col-5 blog-single-item">
                     <div class="blog-pic pt-5">
-                        <img src="{{ asset('assets/frontend/img/ro-water-plant/2.webp') }}" alt="blog"
+                        <img src="{{ asset('assets/frontend/img/ro-water-plant/2.webp') }}" alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, ro water plant, ro plant, reverse osmosis plant, water plant company near me"
                             class="">
                     </div>
                 </div>
@@ -218,7 +218,7 @@
                 <div class="col-5 text-center blog-single-item">
                     <div class="blog-pic">
                         <picture>
-                            <img src="{{ asset('assets/frontend/img/ro-water-plant/3.webp') }}" alt="blog"
+                            <img src="{{ asset('assets/frontend/img/ro-water-plant/3.webp') }}" alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, ro water plant, ro plant, reverse osmosis plant, water plant company near me"
                                 class="">
                         </picture>
 

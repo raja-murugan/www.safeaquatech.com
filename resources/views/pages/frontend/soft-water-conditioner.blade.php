@@ -10,15 +10,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Zwork Technology">
     <meta name="description"
-        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
-    <meta name="keywords" content="water purifier for home, smart water purifier, house water purification system, how to choose water purifier for home">
+        content="Discover the transformative power of Soft Water Conditioner. Say goodbye to hard water problems with our advanced Soft Water Conditioner technology.">
+    <meta name="keywords" content="hard water filter for house, hard water softener, water softener for bathing, alkara water softener, alkara water softener reviews, soft water conditioner, water conditioner for home">
     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.safeaquatech.com/">
-    <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers.">
-    <meta property="og:description"
-        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
-    <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/images/banner/banner2.webp">
+    <meta property="og:url" content="https://safeaquatech.com/soft-water-conditioner">
+    <meta property="og:title" content="Soft Water Conditioner Protects Your Plumbing System">
+    <meta property="og:description" content="Soft water conditioner ensures a gentle, mineral-free wash, protecting your skin and hair from harsh, drying effects.">
+    <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/img/soft-water-conditioner/1.webp">
 
 
     <!-- Font Awesome -->
@@ -81,7 +80,7 @@
             <div class="container-fluid">
                 <div class="logo">
                     <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.webp') }}"
-                            alt="logo" style="width: 200px;" /></a>
+                            alt="hard water filter for house, hard water softener, water softener for bathing, alkara water softener, alkara water softener reviews, soft water conditioner, water conditioner for home" style="width: 200px;" /></a>
                 </div>
                 <div class="collapse main-nav navbar-collapse" id="navbarSupportedContent-333">
                     <ul class="navbar-nav ml-auto">
@@ -167,7 +166,7 @@
             <div class="blog-pic text-center pb-5">
                 <picture>
                     <img src="{{ asset('assets/frontend/img/soft-water-conditioner/1.webp') }}" style="width: 500px;"
-                        alt="blog" class="">
+                        alt="hard water filter for house, hard water softener, water softener for bathing, alkara water softener, alkara water softener reviews, soft water conditioner, water conditioner for home" class="">
                 </picture>
             </div>
 
@@ -215,7 +214,7 @@
 
             <div class="blog-pic text-center">
                 <picture>
-                    <img src="{{ asset('assets/frontend/img/soft-water-conditioner/2.webp') }}" alt="blog"
+                    <img src="{{ asset('assets/frontend/img/soft-water-conditioner/2.webp') }}" alt="hard water filter for house, hard water softener, water softener for bathing, alkara water softener, alkara water softener reviews, soft water conditioner, water conditioner for home"
                         class="">
                 </picture>
             </div>

@@ -5,20 +5,23 @@
 
     <title>Water Purifier Sales and Service | Trusted Provider for Purifiers</title>
 
-     <!-- Meta Data -->
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <meta name="author" content="Zwork Technology">
-     <meta name="description" content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
-     <meta name="keywords" content="water softener, water softener for water tank, home water softener, water softener for house, water softener installation near me, water purifier for home, smart water purifier, house water purification system, how to choose water purifier for home, soft water conditioner, water conditioner for home, ro water plant, ro plant, reverse osmosis plant, water plant company near me, water purifier, water purifier machine, tap water purifier, near water purifier shop, RO installation near me, reverse osmosis filter for home, ro filter for home, water filter for hard water, water filter for home, iron removal filter, home filter system, drinking water filter near me, best water purifiers for home, uv water purifiers, water purifiers">
-     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
+    <!-- Meta Data -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Zwork Technology">
+    <meta name="description"
+        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
+    <meta name="keywords"
+        content="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, hard water filter for house, hard water softener, water softener for bathing, alkara water softener, alkara water softener reviews, alkaline and copper water purifier, water softener, water softener for water tank, home water softener, water softener for house, water softener installation near me, water purifier for home, smart water purifier, house water purification system, how to choose water purifier for home, soft water conditioner, water conditioner for home, ro water plant, ro plant, reverse osmosis plant, water plant company near me, water purifier, water purifier machine, tap water purifier, near water purifier shop, RO installation near me, reverse osmosis filter for home, ro filter for home, water filter for hard water, water filter for home, iron removal filter, home filter system, drinking water filter near me, best water purifiers for home, uv water purifiers, water purifiers">
+    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
 
-     <meta property="og:type" content="website">
-     <meta property="og:url" content="https://www.safeaquatech.com/">
-     <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers.">
-     <meta property="og:description" content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
-     <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/images/banner/banner2.webp">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.safeaquatech.com/">
+    <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers.">
+    <meta property="og:description"
+        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
+    <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/images/banner/banner2.webp">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/fontawesome.min.css') }}" />
@@ -151,7 +154,8 @@
                     </ul>
                 </div>
                 <div class="header-btn">
-                    <a href="https://api.whatsapp.com/send/?phone=%2B919344330043" target="_blank" class="button">Chat
+                    <a href="https://api.whatsapp.com/send/?phone=%2B919344330043" target="_blank"
+                        class="button">Chat
                         On WhatsApp</a>
                 </div>
                 <div class="mobile-btn bttn">
@@ -208,7 +212,8 @@
                             UV purifiers to smart water purifiers, we have the perfect solution for your home, ensuring
                             safe and delicious drinking water for your family.</p>
                         <p><span style ="color: #ffa922;"><b>Water Softeners:</b></span> Hard water can damage
-                            appliances and leave residue. Our <span><a href="{{ route('water-softener') }}">water softener</a></span> eliminate these problems, providing soft,
+                            appliances and leave residue. Our <span><a href="{{ route('water-softener') }}">water
+                                    softener</a></span> eliminate these problems, providing soft,
                             gentle water for your entire home.</p>
                         <p><span style ="color: #ffa922;"><b>Industrial Water Treatment Plants:</b></span> We design
                             and install customized water treatment plants for industrial applications, ensuring your
@@ -335,9 +340,23 @@
                         </h2>
                         <p>
                             For industrial or home needs, our industrial water treatment solutions ensure high
-                            efficiency and reliability. We specialize for testing <b>(22 water molecular test)</b> the water
+                            efficiency and reliability. We specialize for testing <b>(22 water molecular test)</b> the
+                            water
                             for which kind of purifying process is suitable for the each & every customer and
-                            installation of reverse osmosis plant, and water softener systems for home or business.</p>
+                            installation of reverse osmosis plant, and water softener systems for home or business.
+                            </br></br>
+                            Explore a range of water purification solutions to fit your needs. Aquaguard water purifier
+                            Trichy offer reliable options, including RO water purifier in Trichy models for
+                            comprehensive filtration.
+                            </br></br>
+                            Looking to tackle hard water issues? Consider a hard water filter for house or a hard water
+                            softener. These can improve everything from water softener for bathing to the performance of
+                            your appliances.
+                            Intrigued by the benefits of softened water? Research the Alkara water softener and read
+                            Alkara water softener reviews.
+                            </br></br>
+                            Thinking about an alkaline and copper water purifier? We can help you to find the perfect
+                            fit for your home in Trichy! Let's ensure you have access to clean, healthy water.</p>
                         <p><span style ="color: #ffa922;"><b>Wide range of products and services:</b></span> We cater
                             to all your water treatment needs, from
                             domestic to industrial applications.</p>
@@ -347,7 +366,9 @@
                         <p><span style ="color: #ffa922;"><b>Quality & Reliability:</b></span> We only use top-quality
                             products and provide reliable installation
                             and maintenance services.
-                        <p>Whether you need a reliable water purifier for home or a <span><a href="{{ route('soft-water-conditioner') }}">soft water conditioner</a></span> for enhanced
+                        <p>Whether you need a reliable water purifier for home or a <span><a
+                                    href="{{ route('soft-water-conditioner') }}">soft water conditioner</a></span> for
+                            enhanced
                             water quality, we have you covered.</p>
                         <p>Our range includes advanced water conditioners specifically for home use, ensuring that
                             every drop of water you use is clean, safe, and free from impurities. With our expertise in
@@ -366,7 +387,7 @@
     <!-- Support Section End -->
 
     <!-- About Section Start -->
-    <section class="about-section" >
+    <section class="about-section">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-xl-6 col-md-12">
@@ -611,7 +632,8 @@
                         <div class="work-content">
                             <a href="#">Purification Journey</a>
                             <p>
-                                By meticulously filtering, we <span><a href="{{ route('water-purifier') }}">eliminate impurities</a></span>, assuring each sip meets the highest
+                                By meticulously filtering, we <span><a href="{{ route('water-purifier') }}">eliminate
+                                        impurities</a></span>, assuring each sip meets the highest
                                 safety standards.
                             </p>
                         </div>

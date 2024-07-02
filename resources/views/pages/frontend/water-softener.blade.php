@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Best Water Softener for Your Hard Water Issues</title>
+    <title>Water Softener for All Your Hard Water Issues</title>
 
     <!-- Meta Data -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,15 +10,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Zwork Technology">
     <meta name="description"
-        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
-    <meta name="keywords" content="water softener, water softener for water tank, home water softener, water softener for house, water softener installation near me">
+        content="Experience the difference with our advanced water softener technology. Say goodbye to hard water problems with our effective water softener solutions.">
+    <meta name="keywords"
+        content="hard water filter for house, hard water softener, water softener for bathing, alkara water softener, alkara water softener reviews, water softener, water softener for water tank, home water softener, water softener for house, water softener installation near me">
     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.safeaquatech.com/">
-    <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers.">
+    <meta property="og:url" content="https://safeaquatech.com/water-softener">
+    <meta property="og:title" content="Water Softener: Improve Your Water Quality Today">
     <meta property="og:description"
-        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
-    <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/images/banner/banner2.webp">
+        content="Water softener systems transform hard water into soft, improving skin and appliance longevity. Discover cleaner, softer water today!">
+    <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/img/water-softener/2.webp">
 
 
     <!-- Font Awesome -->
@@ -89,7 +90,8 @@
             <div class="container-fluid">
                 <div class="logo">
                     <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.webp') }}"
-                            alt="logo" style="width: 200px;" /></a>
+                            alt="hard water filter for house, hard water softener, water softener for bathing, alkara water softener, alkara water softener reviews, water softener, water softener for water tank, home water softener, water softener for house, water softener installation near me"
+                            style="width: 200px;" /></a>
                 </div>
                 <div class="collapse main-nav navbar-collapse" id="navbarSupportedContent-333">
                     <ul class="navbar-nav ml-auto">
@@ -172,7 +174,8 @@
                 <div class="col-sm-12 blog-single-item text-center">
                     <div class="blog-pic">
                         <img src="{{ asset('assets/frontend/img/water-softener/2.webp') }}" style="width: 500px;"
-                            alt="blog" class="">
+                            alt="hard water filter for house, hard water softener, water softener for bathing, alkara water softener, alkara water softener reviews, water softener, water softener for water tank, home water softener, water softener for house, water softener installation near me"
+                            class="">
                     </div>
                 </div>
             </div>
@@ -189,7 +192,8 @@
                 <div class="col-5 blog-single-item">
                     <div class="blog-pic">
                         <img src="{{ asset('assets/frontend/img/water-softener/1.webp') }}" style="width: 500px;"
-                            alt="blog" class="">
+                            alt="hard water filter for house, hard water softener, water softener for bathing, alkara water softener, alkara water softener reviews, water softener, water softener for water tank, home water softener, water softener for house, water softener installation near me"
+                            class="">
                     </div>
                 </div>
                 <div class="col-7">
@@ -224,7 +228,8 @@
                     <div class="blog-pic">
                         <picture>
                             <img src="{{ asset('assets/frontend/img/water-softener/4.webp') }}" style="width: 250px;"
-                                alt="blog" class="">
+                                alt="hard water filter for house, hard water softener, water softener for bathing, alkara water softener, alkara water softener reviews, water softener, water softener for water tank, home water softener, water softener for house, water softener installation near me"
+                                class="">
                         </picture>
 
                     </div>
@@ -235,7 +240,8 @@
             <div class="row">
                 <div class="col-5 blog-single-item">
                     <div class="blog-pic">
-                        <img src="{{ asset('assets/frontend/img/water-softener/3.webp') }}" alt="blog"
+                        <img src="{{ asset('assets/frontend/img/water-softener/3.webp') }}"
+                            alt="hard water filter for house, hard water softener, water softener for bathing, alkara water softener, alkara water softener reviews, water softener, water softener for water tank, home water softener, water softener for house, water softener installation near me"
                             class="">
                     </div>
                 </div>

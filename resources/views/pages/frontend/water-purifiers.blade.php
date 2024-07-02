@@ -10,15 +10,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Zwork Technology">
     <meta name="description"
-        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
-    <meta name="keywords" content="best water purifiers for home, uv water purifiers, water purifiers">
+        content="Installing reliable water purifiers is a smart choice; these water purifiers not only improve water quality but also promote better health for your family.">
+    <meta name="keywords" content="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, best water purifiers for home, uv water purifiers, water purifiers">
     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.safeaquatech.com/">
-    <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers.">
+    <meta property="og:url" content="https://safeaquatech.com/water-filter-for-home">
+    <meta property="og:title" content="Water Purifiers: We Help to Choose the Right One!">
     <meta property="og:description"
-        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
-    <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/images/banner/banner2.webp">
+        content="High-quality water purifiers provide peace of mind by eliminating harmful substances, and investing in top-notch water purifiers ensures long-term water safety.">
+    <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/img/water-purifiers/1.webp">
 
 
     <!-- Font Awesome -->
@@ -81,7 +81,7 @@
             <div class="container-fluid">
                 <div class="logo">
                     <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.webp') }}"
-                            alt="logo" style="width: 200px;" /></a>
+                            alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, best water purifiers for home, uv water purifiers, water purifiers" style="width: 200px;" /></a>
                 </div>
                 <div class="collapse main-nav navbar-collapse" id="navbarSupportedContent-333">
                     <ul class="navbar-nav ml-auto">
@@ -165,7 +165,7 @@
 
             <div class="text-center pb-5">
                 <picture>
-                    <img src="{{ asset('assets/frontend/img/water-purifiers/1.webp') }}" alt="blog"
+                    <img src="{{ asset('assets/frontend/img/water-purifiers/1.webp') }}" alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, best water purifiers for home, uv water purifiers, water purifiers"
                         class="">
                 </picture>
             </div>
@@ -227,7 +227,7 @@
 
             <div class="blog-pic text-center pb-5">
                 <picture>
-                    <img src="{{ asset('assets/frontend/img/water-purifiers/2.webp') }}" alt="blog"
+                    <img src="{{ asset('assets/frontend/img/water-purifiers/2.webp') }}" alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, best water purifiers for home, uv water purifiers, water purifiers"
                         class="">
                 </picture>
             </div>

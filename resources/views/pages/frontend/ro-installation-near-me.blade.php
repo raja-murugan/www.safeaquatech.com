@@ -10,15 +10,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Zwork Technology">
     <meta name="description"
-        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
-    <meta name="keywords" content="RO installation near me, reverse osmosis filter for home, ro filter for home">
+        content="Seeking RO installation near me? Look no further than local experts who guarantee efficient, affordable, and quality water purification solutions.">
+    <meta name="keywords" content="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, RO installation near me, reverse osmosis filter for home, ro filter for home">
     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.safeaquatech.com/">
-    <meta property="og:title" content="Your Health Matters: Prioritizing Wellness with Our Water Purifiers.">
+    <meta property="og:url" content="https://safeaquatech.com/ro-installation-near-me">
+    <meta property="og:title" content="Ro installation near me: Expert Services at Your Doorstep">
     <meta property="og:description"
-        content="Shop now to find the best water purifier for your needs and experience pure, safe, and great-tasting water every day!">
-    <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/images/banner/banner2.webp">
+        content="Want the best RO installation near me? Choose local experts for efficient, affordable, and top-quality water purification solutions to ensure your family's safety.">
+    <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/img/ro-installation/1.webp">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/fontawesome.min.css') }}" />
@@ -80,7 +80,7 @@
             <div class="container-fluid">
                 <div class="logo">
                     <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.webp') }}"
-                            alt="logo" style="width: 200px;" /></a>
+                            alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, RO installation near me, reverse osmosis filter for home, ro filter for home" style="width: 200px;" /></a>
                 </div>
                 <div class="collapse main-nav navbar-collapse" id="navbarSupportedContent-333">
                     <ul class="navbar-nav ml-auto">
@@ -159,7 +159,7 @@
 
             <div class="blog-pic text-center pb-5">
                 <picture>
-                    <img src="{{ asset('assets/frontend/img/ro-installation/1.webp') }}" alt="blog"
+                    <img src="{{ asset('assets/frontend/img/ro-installation/1.webp') }}" alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, RO installation near me, reverse osmosis filter for home, ro filter for home"
                         class="">
                 </picture>
             </div>
