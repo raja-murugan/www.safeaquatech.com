@@ -11,12 +11,14 @@
     <meta name="author" content="Zwork Technology">
     <meta name="description"
         content="Discover the transformative power of Soft Water Conditioner. Say goodbye to hard water problems with our advanced Soft Water Conditioner technology.">
-    <meta name="keywords" content="hard water filter for house, hard water softener, water softener for bathing, alkara water softener, alkara water softener reviews, soft water conditioner, water conditioner for home">
+    <meta name="keywords"
+        content="hard water filter for house, hard water softener, water softener for bathing, alkara water softener, alkara water softener reviews, soft water conditioner, water conditioner for home">
     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favlogo.webp') }}" />
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://safeaquatech.com/soft-water-conditioner">
     <meta property="og:title" content="Soft Water Conditioner Protects Your Plumbing System">
-    <meta property="og:description" content="Soft water conditioner ensures a gentle, mineral-free wash, protecting your skin and hair from harsh, drying effects.">
+    <meta property="og:description"
+        content="Soft water conditioner ensures a gentle, mineral-free wash, protecting your skin and hair from harsh, drying effects.">
     <meta property="og:image" content="https://www.safeaquatech.com/assets/frontend/img/soft-water-conditioner/1.webp">
 
 
@@ -36,9 +38,32 @@
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/style.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/responsive.css') }}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })
+        (window, document, 'script', 'dataLayer', 'GTM-PKG884Q7');
+    </script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PKG884Q7" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- Preloader -->
     {{-- <div id="preloader">
         <div id="status">
@@ -80,7 +105,8 @@
             <div class="container-fluid">
                 <div class="logo">
                     <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.webp') }}"
-                            alt="hard water filter for house, hard water softener, water softener for bathing, alkara water softener, alkara water softener reviews, soft water conditioner, water conditioner for home" style="width: 200px;" /></a>
+                            alt="hard water filter for house, hard water softener, water softener for bathing, alkara water softener, alkara water softener reviews, soft water conditioner, water conditioner for home"
+                            style="width: 200px;" /></a>
                 </div>
                 <div class="collapse main-nav navbar-collapse" id="navbarSupportedContent-333">
                     <ul class="navbar-nav ml-auto">
@@ -166,7 +192,8 @@
             <div class="blog-pic text-center pb-5">
                 <picture>
                     <img src="{{ asset('assets/frontend/img/soft-water-conditioner/1.webp') }}" style="width: 500px;"
-                        alt="hard water filter for house, hard water softener, water softener for bathing, alkara water softener, alkara water softener reviews, soft water conditioner, water conditioner for home" class="">
+                        alt="hard water filter for house, hard water softener, water softener for bathing, alkara water softener, alkara water softener reviews, soft water conditioner, water conditioner for home"
+                        class="">
                 </picture>
             </div>
 
@@ -214,7 +241,8 @@
 
             <div class="blog-pic text-center">
                 <picture>
-                    <img src="{{ asset('assets/frontend/img/soft-water-conditioner/2.webp') }}" alt="hard water filter for house, hard water softener, water softener for bathing, alkara water softener, alkara water softener reviews, soft water conditioner, water conditioner for home"
+                    <img src="{{ asset('assets/frontend/img/soft-water-conditioner/2.webp') }}"
+                        alt="hard water filter for house, hard water softener, water softener for bathing, alkara water softener, alkara water softener reviews, soft water conditioner, water conditioner for home"
                         class="">
                 </picture>
             </div>

@@ -44,9 +44,32 @@
             }
         }
     </style>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })
+        (window, document, 'script', 'dataLayer', 'GTM-PKG884Q7');
+    </script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PKG884Q7" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- Preloader -->
     {{-- <div id="preloader">
         <div id="status">
@@ -88,7 +111,8 @@
             <div class="container-fluid">
                 <div class="logo">
                     <a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo.webp') }}"
-                            alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, ro water plant, ro plant, reverse osmosis plant, water plant company near me" style="width: 200px;" /></a>
+                            alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, ro water plant, ro plant, reverse osmosis plant, water plant company near me"
+                            style="width: 200px;" /></a>
                 </div>
                 <div class="collapse main-nav navbar-collapse" id="navbarSupportedContent-333">
                     <ul class="navbar-nav ml-auto">
@@ -119,7 +143,8 @@
                     </ul>
                 </div>
                 <div class="header-btn">
-                    <a href="https://api.whatsapp.com/send/?phone=%2B919344330043" target="_blank" class="button">Chat
+                    <a href="https://api.whatsapp.com/send/?phone=%2B919344330043" target="_blank"
+                        class="button">Chat
                         On WhatsApp</a>
                 </div>
                 <div class="mobile-btn bttn">
@@ -171,7 +196,8 @@
                 <div class="col-sm-12 blog-single-item text-center">
                     <div class="blog-pic">
                         <img src="{{ asset('assets/frontend/img/ro-water-plant/1.webp') }}" style="width: 500px;"
-                            alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, ro water plant, ro plant, reverse osmosis plant, water plant company near me" class="">
+                            alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, ro water plant, ro plant, reverse osmosis plant, water plant company near me"
+                            class="">
                     </div>
                 </div>
             </div>
@@ -179,7 +205,8 @@
             <div class="row">
                 <div class="col-5 blog-single-item">
                     <div class="blog-pic pt-5">
-                        <img src="{{ asset('assets/frontend/img/ro-water-plant/2.webp') }}" alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, ro water plant, ro plant, reverse osmosis plant, water plant company near me"
+                        <img src="{{ asset('assets/frontend/img/ro-water-plant/2.webp') }}"
+                            alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, ro water plant, ro plant, reverse osmosis plant, water plant company near me"
                             class="">
                     </div>
                 </div>
@@ -218,7 +245,8 @@
                 <div class="col-5 text-center blog-single-item">
                     <div class="blog-pic">
                         <picture>
-                            <img src="{{ asset('assets/frontend/img/ro-water-plant/3.webp') }}" alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, ro water plant, ro plant, reverse osmosis plant, water plant company near me"
+                            <img src="{{ asset('assets/frontend/img/ro-water-plant/3.webp') }}"
+                                alt="aquaguard water purifier trichy, water purifier in trichy, ro water purifier trichy, alkaline and copper water purifier, ro water plant, ro plant, reverse osmosis plant, water plant company near me"
                                 class="">
                         </picture>
 
